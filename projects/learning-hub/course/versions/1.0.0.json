@@ -1,0 +1,1816 @@
+{
+  "schema_version": 1,
+  "course_version": "1.0.0",
+  "title": "AI Engineer",
+  "skills": [
+    {
+      "id": "SK-PYTHON",
+      "title": "Инженерный Python: типы, функции, коллекции и исключения",
+      "category": "engineering"
+    },
+    {
+      "id": "SK-ASYNC",
+      "title": "asyncio: конкурентность, отмена и лимиты",
+      "category": "engineering"
+    },
+    {
+      "id": "SK-HTTP",
+      "title": "HTTP, JSON и контракт ошибок",
+      "category": "engineering"
+    },
+    {
+      "id": "SK-PYDANTIC",
+      "title": "Pydantic: схемы и валидация",
+      "category": "engineering"
+    },
+    {
+      "id": "SK-FASTAPI",
+      "title": "FastAPI и жизненный цикл сервиса",
+      "category": "engineering"
+    },
+    {
+      "id": "SK-UV",
+      "title": "uv, изоляция зависимостей и воспроизводимость",
+      "category": "engineering"
+    },
+    {
+      "id": "SK-DIRECT-API",
+      "title": "Прямой вызов LLM через официальный OpenAI SDK",
+      "category": "llm"
+    },
+    {
+      "id": "SK-PROVIDER",
+      "title": "Конфигурация провайдера и границы совместимости",
+      "category": "llm"
+    },
+    {
+      "id": "SK-STREAMING",
+      "title": "Потоковая генерация и инструменты",
+      "category": "llm"
+    },
+    {
+      "id": "SK-RESPONSES",
+      "title": "Responses API и контракт возможностей",
+      "category": "llm"
+    },
+    {
+      "id": "SK-LLM-FOUNDATIONS",
+      "title": "Токены, attention, embeddings и генерация",
+      "category": "foundations"
+    },
+    {
+      "id": "SK-MATH",
+      "title": "Векторы, вероятность и статистика экспериментов",
+      "category": "foundations"
+    },
+    {
+      "id": "SK-ML",
+      "title": "ML, разделение данных и предотвращение утечек",
+      "category": "foundations"
+    },
+    {
+      "id": "SK-RAG",
+      "title": "RAG, chunking и parent-child retrieval",
+      "category": "retrieval"
+    },
+    {
+      "id": "SK-HYBRID",
+      "title": "BM25, dense retrieval, RRF и reranking",
+      "category": "retrieval"
+    },
+    {
+      "id": "SK-LANGGRAPH",
+      "title": "LangGraph: состояние, checkpoints и граф",
+      "category": "agents"
+    },
+    {
+      "id": "SK-MEMORY",
+      "title": "Память агента и жизненный цикл данных",
+      "category": "agents"
+    },
+    {
+      "id": "SK-MCP",
+      "title": "MCP: инструменты и границы доверия",
+      "category": "agents"
+    },
+    {
+      "id": "SK-HITL",
+      "title": "Human-in-the-loop и безопасное продолжение",
+      "category": "agents"
+    },
+    {
+      "id": "SK-EVALS",
+      "title": "RAGAS, DeepEval и Promptfoo",
+      "category": "quality"
+    },
+    {
+      "id": "SK-JUDGE",
+      "title": "Калибровка LLM-as-a-judge",
+      "category": "quality"
+    },
+    {
+      "id": "SK-OBSERVABILITY",
+      "title": "Langfuse, OpenTelemetry и redaction",
+      "category": "operations"
+    },
+    {
+      "id": "SK-PERFORMANCE",
+      "title": "TTFT, p95 и нагрузочные измерения",
+      "category": "operations"
+    },
+    {
+      "id": "SK-DATASET",
+      "title": "Версии наборов, разметка и регрессии",
+      "category": "quality"
+    },
+    {
+      "id": "SK-RESILIENCE",
+      "title": "Timeouts, retries и circuit breaker",
+      "category": "backend"
+    },
+    {
+      "id": "SK-QUEUES",
+      "title": "Очереди, backpressure и отмена",
+      "category": "backend"
+    },
+    {
+      "id": "SK-IDEMPOTENCY",
+      "title": "Идемпотентность и согласованность операций",
+      "category": "backend"
+    },
+    {
+      "id": "SK-SECURITY",
+      "title": "Guardrails, prompt injection, PII и RBAC",
+      "category": "security"
+    },
+    {
+      "id": "SK-POSTGRES",
+      "title": "PostgreSQL, транзакции и pgvector",
+      "category": "storage"
+    },
+    {
+      "id": "SK-QDRANT",
+      "title": "Qdrant и фильтрация векторного поиска",
+      "category": "storage"
+    },
+    {
+      "id": "SK-OPENSEARCH",
+      "title": "OpenSearch и полнотекстовый поиск",
+      "category": "storage"
+    },
+    {
+      "id": "SK-ANN",
+      "title": "HNSW, IVF и компромиссы ANN",
+      "category": "storage"
+    },
+    {
+      "id": "SK-INFERENCE",
+      "title": "Ollama, vLLM, SGLang и сравнение TGI",
+      "category": "inference"
+    },
+    {
+      "id": "SK-QUANTIZATION",
+      "title": "Квантизация и бюджет VRAM",
+      "category": "inference"
+    },
+    {
+      "id": "SK-BATCHING",
+      "title": "Batching, KV cache и throughput",
+      "category": "inference"
+    },
+    {
+      "id": "SK-DOCKER",
+      "title": "Docker и воспроизводимое развёртывание",
+      "category": "mlops"
+    },
+    {
+      "id": "SK-CI",
+      "title": "CI, артефакты и проверка регрессий",
+      "category": "mlops"
+    },
+    {
+      "id": "SK-K8S",
+      "title": "Kubernetes, облако и эксплуатация GPU",
+      "category": "mlops"
+    },
+    {
+      "id": "SK-HF",
+      "title": "Hugging Face и PyTorch",
+      "category": "training"
+    },
+    {
+      "id": "SK-SFT",
+      "title": "SFT и подготовка обучающих данных",
+      "category": "training"
+    },
+    {
+      "id": "SK-LORA",
+      "title": "LoRA и QLoRA",
+      "category": "training"
+    },
+    {
+      "id": "SK-DPO",
+      "title": "DPO и данные предпочтений",
+      "category": "training"
+    },
+    {
+      "id": "SK-SYSTEM-DESIGN",
+      "title": "System Design и архитектурные решения",
+      "category": "architecture"
+    },
+    {
+      "id": "SK-FINOPS",
+      "title": "FinOps и бюджет качества/стоимости",
+      "category": "architecture"
+    },
+    {
+      "id": "SK-DOMAIN",
+      "title": "Предметные ограничения и provenance",
+      "category": "product"
+    }
+  ],
+  "modules": [
+    {
+      "id": "M00",
+      "title": "Инженерный Python",
+      "description": "Функции, типы, HTTP и конкурентность для надёжного Python backend.",
+      "prerequisites": [],
+      "outcome_ids": [
+        "O-M00-01",
+        "O-M00-02",
+        "O-M00-03",
+        "O-M00-04",
+        "O-M00-05"
+      ],
+      "lesson_ids": [
+        "D00",
+        "M00-THEORY",
+        "M00-PRACTICE",
+        "M00-CHECK"
+      ]
+    },
+    {
+      "id": "M01",
+      "title": "Прямой LLM API",
+      "description": "Официальный OpenAI Python SDK, локальный Ollama по умолчанию, явные возможности провайдера.",
+      "prerequisites": [
+        "M00"
+      ],
+      "outcome_ids": [
+        "O-M01-01",
+        "O-M01-02",
+        "O-M01-03",
+        "O-M01-04",
+        "O-M01-05"
+      ],
+      "lesson_ids": [
+        "L00",
+        "LAB01",
+        "M01-THEORY",
+        "M01-PRACTICE",
+        "M01-CHECK"
+      ]
+    },
+    {
+      "id": "M02",
+      "title": "Основы AI Engineering: RAG и агенты",
+      "description": "Поиск с доказательствами, управление состоянием и границы доверия.",
+      "prerequisites": [
+        "M01"
+      ],
+      "outcome_ids": [
+        "O-M02-01",
+        "O-M02-02",
+        "O-M02-03",
+        "O-M02-04",
+        "O-M02-05"
+      ],
+      "lesson_ids": [
+        "M02-THEORY",
+        "M02-PRACTICE",
+        "M02-CHECK"
+      ]
+    },
+    {
+      "id": "M03",
+      "title": "Оценка и наблюдаемость",
+      "description": "Наборы регрессий, откалиброванный judge, трассы и измерения задержки.",
+      "prerequisites": [
+        "M02"
+      ],
+      "outcome_ids": [
+        "O-M03-01",
+        "O-M03-02",
+        "O-M03-03",
+        "O-M03-04",
+        "O-M03-05"
+      ],
+      "lesson_ids": [
+        "M03-THEORY",
+        "M03-PRACTICE",
+        "M03-CHECK"
+      ]
+    },
+    {
+      "id": "M04",
+      "title": "Устойчивый backend и безопасность",
+      "description": "Очереди, идемпотентность и контролируемые отказы для операций агента.",
+      "prerequisites": [
+        "M03"
+      ],
+      "outcome_ids": [
+        "O-M04-01",
+        "O-M04-02",
+        "O-M04-03",
+        "O-M04-04",
+        "O-M04-05"
+      ],
+      "lesson_ids": [
+        "M04-THEORY",
+        "M04-PRACTICE",
+        "M04-CHECK"
+      ]
+    },
+    {
+      "id": "M05",
+      "title": "Поиск и хранилища",
+      "description": "PostgreSQL/pgvector, Qdrant, OpenSearch и осознанный выбор ANN.",
+      "prerequisites": [
+        "M02",
+        "M04"
+      ],
+      "outcome_ids": [
+        "O-M05-01",
+        "O-M05-02",
+        "O-M05-03",
+        "O-M05-04",
+        "O-M05-05"
+      ],
+      "lesson_ids": [
+        "M05-THEORY",
+        "M05-PRACTICE",
+        "M05-CHECK"
+      ]
+    },
+    {
+      "id": "M06",
+      "title": "Inference и MLOps",
+      "description": "Локальная эксплуатация, эффективность GPU и воспроизводимый выпуск.",
+      "prerequisites": [
+        "M03",
+        "M04"
+      ],
+      "outcome_ids": [
+        "O-M06-01",
+        "O-M06-02",
+        "O-M06-03",
+        "O-M06-04",
+        "O-M06-05"
+      ],
+      "lesson_ids": [
+        "M06-THEORY",
+        "M06-PRACTICE",
+        "M06-CHECK"
+      ]
+    },
+    {
+      "id": "M07",
+      "title": "Fine-tuning",
+      "description": "HF/PyTorch, SFT, LoRA/QLoRA и DPO только после измеримого baseline.",
+      "prerequisites": [
+        "M02",
+        "M03",
+        "M06"
+      ],
+      "outcome_ids": [
+        "O-M07-01",
+        "O-M07-02",
+        "O-M07-03",
+        "O-M07-04",
+        "O-M07-05"
+      ],
+      "lesson_ids": [
+        "M07-THEORY",
+        "M07-PRACTICE",
+        "M07-CHECK"
+      ]
+    },
+    {
+      "id": "M08",
+      "title": "System Design и FinOps",
+      "description": "Интеграция шести проектов, архитектурная защита и стоимость эксплуатации.",
+      "prerequisites": [
+        "M05",
+        "M06",
+        "M07"
+      ],
+      "outcome_ids": [
+        "O-M08-01",
+        "O-M08-02",
+        "O-M08-03",
+        "O-M08-04",
+        "O-M08-05"
+      ],
+      "lesson_ids": [
+        "M08-THEORY",
+        "M08-PRACTICE",
+        "M08-CHECK"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "O-M00-01",
+      "module_id": "M00",
+      "title": "Реализовать типизированное преобразование данных без скрытых побочных эффектов",
+      "skill_ids": [
+        "SK-PYTHON"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Функция обрабатывает пустой ввод, отсутствующее поле и неверный тип на отдельных примерах.",
+        "Ученик объясняет изменяемость, область видимости и выбор структуры данных."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M00-02",
+      "module_id": "M00",
+      "title": "Объяснить HTTP/JSON и классифицировать ошибки",
+      "skill_ids": [
+        "SK-HTTP"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "На примерах различены HTTP-ошибка, транспортная ошибка, невалидный JSON и ошибка схемы.",
+        "Показаны безопасные журналы без секретов и содержимого персональных документов."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M00-03",
+      "module_id": "M00",
+      "title": "Управлять конкурентностью и отменой asyncio",
+      "skill_ids": [
+        "SK-ASYNC"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Ограниченная конкурентность не превышает заданный лимит на контролируемом стенде.",
+        "Таймаут и отмена не оставляют незавершённые задачи; объяснено отличие await от блокировки потока."
+      ],
+      "project_ids": [
+        "incident-analyst",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M00-04",
+      "module_id": "M00",
+      "title": "Построить валидируемый контракт FastAPI",
+      "skill_ids": [
+        "SK-PYDANTIC",
+        "SK-FASTAPI"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Pydantic отклоняет лишние поля и нарушение выбранных ограничений.",
+        "API имеет явные модели запроса/ответа и тесты положительного и отрицательного запроса."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M00-05",
+      "module_id": "M00",
+      "title": "Воспроизвести Python окружение через uv",
+      "skill_ids": [
+        "SK-UV"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Чистое окружение создаётся по зафиксированным зависимостям и версии Python.",
+        "Команды проверки не требуют глобальных изменений системы; ученик объясняет lock-файл."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M01-01",
+      "module_id": "M01",
+      "title": "Вызвать модель напрямую через AsyncOpenAI",
+      "skill_ids": [
+        "SK-DIRECT-API",
+        "SK-ASYNC"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Использован официальный OpenAI SDK и chat.completions.create с await, без агентного фреймворка.",
+        "Локальный вызов qwen2.5-coder:7b воспроизводим; пустой content обрабатывается явно."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M01-02",
+      "module_id": "M01",
+      "title": "Переключать провайдера через конфигурацию и защищать бюджет",
+      "skill_ids": [
+        "SK-PROVIDER",
+        "SK-SECURITY"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "По умолчанию разрешён только loopback endpoint и локальная модель.",
+        "Облачный путь отклоняется до запроса без явного режима, ключа и согласованного лимита бюджета.",
+        "Секреты не попадают в код, stdout и историю попытки."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M01-03",
+      "module_id": "M01",
+      "title": "Валидировать структурированный ответ и ошибки SDK",
+      "skill_ids": [
+        "SK-PYDANTIC",
+        "SK-HTTP",
+        "SK-DIRECT-API"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Синтаксический JSON проверяется отдельно от предметной схемы Pydantic.",
+        "Неверный JSON, пропущенное поле и транспортный таймаут дают различимые ошибки; не запускается бесконечный retry."
+      ],
+      "project_ids": [
+        "contract-auditor",
+        "recruitment-assistant",
+        "text-to-sql"
+      ]
+    },
+    {
+      "id": "O-M01-04",
+      "module_id": "M01",
+      "title": "Объяснить потоковую генерацию и безопасный tool calling",
+      "skill_ids": [
+        "SK-STREAMING",
+        "SK-SECURITY"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Разобран SSE/stream и момент первого содержательного токена без смешения с общим временем.",
+        "Аргументы инструмента валидируются, а действие выполняется только через разрешённый интерфейс."
+      ],
+      "project_ids": [
+        "support-agent",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M01-05",
+      "module_id": "M01",
+      "title": "Сравнить Responses API, Chat Completions и основы LLM",
+      "skill_ids": [
+        "SK-RESPONSES",
+        "SK-LLM-FOUNDATIONS",
+        "SK-MATH"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Объяснены токены, контекст, sampling, attention и отличие embeddings от вероятностей следующего токена.",
+        "Создана матрица требуемых возможностей провайдеров; совместимость Responses проверяется отдельно от Chat Completions.",
+        "На небольшом примере объяснены скалярное произведение и cosine similarity; название API не считается гарантией одинакового поведения."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M02-01",
+      "module_id": "M02",
+      "title": "Построить RAG с parent-child разбиением",
+      "skill_ids": [
+        "SK-RAG",
+        "SK-LLM-FOUNDATIONS",
+        "SK-DOMAIN"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Сохраняются document ID, версия и границы исходного фрагмента; child ищется, parent даётся в контекст.",
+        "Ответ ссылается на поддерживающий источник; при отсутствии основания система отказывается от вывода."
+      ],
+      "project_ids": [
+        "contract-auditor",
+        "support-agent",
+        "incident-analyst"
+      ]
+    },
+    {
+      "id": "O-M02-02",
+      "module_id": "M02",
+      "title": "Сравнить BM25, dense, RRF и rerank",
+      "skill_ids": [
+        "SK-HYBRID",
+        "SK-MATH"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "На одном размеченном наборе сравнены отдельные поиски, RRF и reranker.",
+        "Показаны ранги и вклад fusion; выбраны k и цена reranking с объяснением без выдуманного выигрыша."
+      ],
+      "project_ids": [
+        "contract-auditor",
+        "text-to-sql"
+      ]
+    },
+    {
+      "id": "O-M02-03",
+      "module_id": "M02",
+      "title": "Спроектировать LangGraph со состоянием и памятью",
+      "skill_ids": [
+        "SK-LANGGRAPH",
+        "SK-MEMORY"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Состояние имеет схему, checkpoint и правила удаления/истечения памяти.",
+        "После остановки и повторного запуска граф продолжает работу без повторения уже подтверждённого действия."
+      ],
+      "project_ids": [
+        "support-agent",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M02-04",
+      "module_id": "M02",
+      "title": "Подключить MCP и HITL с ограниченными правами",
+      "skill_ids": [
+        "SK-MCP",
+        "SK-HITL",
+        "SK-SECURITY"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Инструменты MCP проходят allowlist и проверку аргументов; недоверенный tool output не меняет системную политику.",
+        "Чувствительная операция останавливается на одобрении человека; отказ и продолжение проверены отдельно."
+      ],
+      "project_ids": [
+        "support-agent",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M02-05",
+      "module_id": "M02",
+      "title": "Предотвратить утечку данных и оценочную самообманку",
+      "skill_ids": [
+        "SK-ML",
+        "SK-DATASET",
+        "SK-MATH"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Train/dev/test разделены по сущности или времени с объяснением выбора.",
+        "Дубликаты и утечка будущей информации проверены; среднее, разброс и неопределённость результата указаны по фактическим данным."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M03-01",
+      "module_id": "M03",
+      "title": "Собрать версионированный evaluation dataset",
+      "skill_ids": [
+        "SK-DATASET",
+        "SK-ML"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Набор содержит обычные, граничные, отказные и adversarial случаи с происхождением.",
+        "Фиксируются версия набора, prompt, модели и критериев; test не подбирается под ответ системы."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M03-02",
+      "module_id": "M03",
+      "title": "Применить RAGAS, DeepEval и Promptfoo по назначению",
+      "skill_ids": [
+        "SK-EVALS",
+        "SK-RAG"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Сравнены retrieval и answer quality; определены входы и ограничения каждой метрики.",
+        "Одна регрессия воспроизводится в выбранном инструменте; для остальных показан небольшой эксперимент или обоснованная несовместимость."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M03-03",
+      "module_id": "M03",
+      "title": "Откалибровать LLM-as-a-judge",
+      "skill_ids": [
+        "SK-JUDGE",
+        "SK-MATH"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Два человеческих оценщика размечают контрольный набор по одной рубрике с разбором разногласий.",
+        "Judge сравнивается с согласованной разметкой; ошибки и зависимость от порядка/стиля ответа анализируются, а порог принимается с обоснованием."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M03-04",
+      "module_id": "M03",
+      "title": "Связать трассы Langfuse и OpenTelemetry",
+      "skill_ids": [
+        "SK-OBSERVABILITY",
+        "SK-SECURITY"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Один trace связывает API, retrieval, model и tool spans по идентификаторам.",
+        "Проверено удаление PII/ключей из трасс; sampling и retention заданы явно."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M03-05",
+      "module_id": "M03",
+      "title": "Измерить TTFT, p95 и стоимость",
+      "skill_ids": [
+        "SK-PERFORMANCE",
+        "SK-FINOPS",
+        "SK-MATH"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Различены холодный/прогретый запуск, TTFT и полная задержка; указан размер выборки и конкурентность.",
+        "Сохранены сырые измерения, p50/p95, ошибки и стоимость на успешный сценарий; выводы ограничены стендом."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M04-01",
+      "module_id": "M04",
+      "title": "Ограничить таймауты, retries и circuit breaker",
+      "skill_ids": [
+        "SK-RESILIENCE",
+        "SK-HTTP"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Для 429, 5xx, timeout и ошибки схемы заданы разные правила; число попыток и общий deadline ограничены.",
+        "Fault injection демонстрирует open/half-open/closed и отсутствие retry storm."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M04-02",
+      "module_id": "M04",
+      "title": "Внедрить очереди и backpressure",
+      "skill_ids": [
+        "SK-QUEUES",
+        "SK-ASYNC"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Очередь имеет предел, политику отказа/ожидания и метрику возраста задания.",
+        "При перегрузке память ограничена; отмена клиента и остановка worker не теряют подтверждённое задание."
+      ],
+      "project_ids": [
+        "incident-analyst",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M04-03",
+      "module_id": "M04",
+      "title": "Обеспечить идемпотентность операций",
+      "skill_ids": [
+        "SK-IDEMPOTENCY",
+        "SK-POSTGRES"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Повтор с тем же ключом не создаёт вторую операцию; конфликт payload отклонён.",
+        "Проверены сбой между записью состояния и ответом, повторная доставка и транзакционная граница."
+      ],
+      "project_ids": [
+        "support-agent",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M04-04",
+      "module_id": "M04",
+      "title": "Защитить данные и действия через guardrails/RBAC",
+      "skill_ids": [
+        "SK-SECURITY",
+        "SK-HITL"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "RBAC проверяется сервером для чтения, инструмента и согласования, включая отрицательные случаи.",
+        "Prompt injection из документа не получает доступ к чужим данным или неразрешённой операции; PII редактируется до журналирования."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M04-05",
+      "module_id": "M04",
+      "title": "Провести нагрузочный и отказный эксперимент FastAPI",
+      "skill_ids": [
+        "SK-FASTAPI",
+        "SK-PERFORMANCE",
+        "SK-OBSERVABILITY"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Есть health/readiness, корректный shutdown и ограничение ресурсов.",
+        "Отчёт воспроизводит насыщение и восстановление, связывает p95 с очередями и не маскирует ошибки средним временем."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M05-01",
+      "module_id": "M05",
+      "title": "Спроектировать PostgreSQL/pgvector и миграции",
+      "skill_ids": [
+        "SK-POSTGRES",
+        "SK-SECURITY"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Схема хранит документы, версии embeddings и ACL; миграция имеет проверенный путь восстановления.",
+        "SQL параметризован; tenant isolation проверена на двух арендаторах."
+      ],
+      "project_ids": [
+        "text-to-sql",
+        "contract-auditor"
+      ]
+    },
+    {
+      "id": "O-M05-02",
+      "module_id": "M05",
+      "title": "Сравнить HNSW и IVF с exact search",
+      "skill_ids": [
+        "SK-ANN",
+        "SK-MATH"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Exact search служит эталоном recall@k на том же наборе.",
+        "Для HNSW/IVF показаны параметры, время построения, память, recall и задержка; вывод основан на измерениях."
+      ],
+      "project_ids": [
+        "contract-auditor",
+        "recruitment-assistant"
+      ]
+    },
+    {
+      "id": "O-M05-03",
+      "module_id": "M05",
+      "title": "Использовать Qdrant с фильтрами и версиями",
+      "skill_ids": [
+        "SK-QDRANT",
+        "SK-RAG"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Payload filters применяются до выдачи пользователю; удаление документа убирает все его чанки.",
+        "Проверены обновление embedding-модели и восстановление индекса без смешения размерностей."
+      ],
+      "project_ids": [
+        "recruitment-assistant",
+        "support-agent"
+      ]
+    },
+    {
+      "id": "O-M05-04",
+      "module_id": "M05",
+      "title": "Настроить OpenSearch для hybrid retrieval",
+      "skill_ids": [
+        "SK-OPENSEARCH",
+        "SK-HYBRID"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Объяснены analyzer, BM25 и влияние языка/токенизации; запросы с точными артикулами входят в набор.",
+        "Сравнение с pgvector/Qdrant учитывает фильтры, эксплуатацию и исходный baseline."
+      ],
+      "project_ids": [
+        "incident-analyst",
+        "contract-auditor"
+      ]
+    },
+    {
+      "id": "O-M05-05",
+      "module_id": "M05",
+      "title": "Выбрать хранилище по консистентности и стоимости",
+      "skill_ids": [
+        "SK-POSTGRES",
+        "SK-QDRANT",
+        "SK-OPENSEARCH",
+        "SK-SYSTEM-DESIGN"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "ADR сравнивает все три варианта на одинаковом сценарии и фиксирует ограничения стенда.",
+        "Определены backup/restore, freshness, reindex, срок удаления и цена эксплуатации."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M06-01",
+      "module_id": "M06",
+      "title": "Сравнить движки inference",
+      "skill_ids": [
+        "SK-INFERENCE",
+        "SK-PROVIDER"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Ollama, vLLM, SGLang и TGI сравнены по поддерживаемой модели/API, состоянию проекта, лицензии и эксплуатационным требованиям на дату эксперимента.",
+        "Не требуются установка всех движков на одной машине и изменение драйверов; неподдержанный эксперимент помечен как недоступный."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M06-02",
+      "module_id": "M06",
+      "title": "Измерить квантизацию и VRAM",
+      "skill_ids": [
+        "SK-QUANTIZATION",
+        "SK-MATH",
+        "SK-EVALS"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Оценены память весов и KV cache с указанием dtype, длины контекста и concurrency.",
+        "Для доступных вариантов сохранён компромисс качество/VRAM/latency на одном наборе; OOM проверяется безопасным ограничением."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M06-03",
+      "module_id": "M06",
+      "title": "Исследовать batching и throughput",
+      "skill_ids": [
+        "SK-BATCHING",
+        "SK-PERFORMANCE"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Различены static/continuous batching, prefill и decode.",
+        "Кривая throughput/TTFT/p95 построена для нескольких уровней нагрузки без выдачи токенов/с за latency."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M06-04",
+      "module_id": "M06",
+      "title": "Упаковать сервис и регрессии в Docker/CI",
+      "skill_ids": [
+        "SK-DOCKER",
+        "SK-CI",
+        "SK-DATASET"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Чистая сборка использует зафиксированные зависимости, непривилегированный пользователь и healthcheck.",
+        "CI проверяет схемы, тесты и eval regression без платного вызова по умолчанию; секреты отделены от образа."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M06-05",
+      "module_id": "M06",
+      "title": "Спроектировать Kubernetes и облачное развёртывание",
+      "skill_ids": [
+        "SK-K8S",
+        "SK-OBSERVABILITY",
+        "SK-FINOPS"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Описаны GPU scheduling, probes, requests/limits, rollout/rollback и секреты.",
+        "Создан локальный или смоделированный deployment plan; платное облако не запускается без отдельного бюджета, ограничения такого доказательства указаны."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M07-01",
+      "module_id": "M07",
+      "title": "Объяснить ML и реализовать малый PyTorch эксперимент",
+      "skill_ids": [
+        "SK-HF",
+        "SK-ML",
+        "SK-MATH"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Объяснены loss, gradient, overfitting и векторно-матричные формы; малый эксперимент имеет seed и split.",
+        "Checkpoint и конфигурация позволяют повторить результат; лицензии модели/данных проверены."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M07-02",
+      "module_id": "M07",
+      "title": "Подготовить SFT данные и baseline",
+      "skill_ids": [
+        "SK-SFT",
+        "SK-DATASET"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Формат и chat template соответствуют выбранной модели; train/test не пересекаются по исходным документам.",
+        "До обучения сохранён baseline prompting/RAG и критерий необходимости обучения."
+      ],
+      "project_ids": [
+        "recruitment-assistant",
+        "contract-auditor"
+      ]
+    },
+    {
+      "id": "O-M07-03",
+      "module_id": "M07",
+      "title": "Сравнить LoRA и QLoRA",
+      "skill_ids": [
+        "SK-LORA",
+        "SK-QUANTIZATION",
+        "SK-HF"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Объяснены low-rank адаптеры, trainable параметры и отличие квантизации базы от обучения адаптера.",
+        "Указаны реальный бюджет памяти, конфигурация и сравнение с baseline без неподтверждённого улучшения."
+      ],
+      "project_ids": [
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M07-04",
+      "module_id": "M07",
+      "title": "Провести эксперимент DPO",
+      "skill_ids": [
+        "SK-DPO",
+        "SK-SFT",
+        "SK-JUDGE"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Пары chosen/rejected имеют происхождение и одинаковый контекст; конфликты предпочтений разобраны.",
+        "Объяснено отличие SFT от DPO и роль reference policy; проверяются деградация и reward hacking на holdout."
+      ],
+      "project_ids": [
+        "support-agent",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M07-05",
+      "module_id": "M07",
+      "title": "Принять решение о выпуске адаптера",
+      "skill_ids": [
+        "SK-CI",
+        "SK-EVALS",
+        "SK-SECURITY"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Отдельный holdout сравнивает базу/адаптер по предметным ошибкам, безопасности, latency и цене.",
+        "Артефакты версионированы; решение deploy/no-deploy и rollback основаны на фактах, платный запуск без бюджета не требуется."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M08-01",
+      "module_id": "M08",
+      "title": "Защитить архитектуру AI сервиса",
+      "skill_ids": [
+        "SK-SYSTEM-DESIGN",
+        "SK-PERFORMANCE"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Уточнены пользователи, нагрузка, SLO, границы данных и отказные сценарии.",
+        "Диаграмма и ADR связывают API, state, retrieval, inference, очередь и наблюдаемость с требованиями."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M08-02",
+      "module_id": "M08",
+      "title": "Рассчитать бюджет качества и стоимости",
+      "skill_ids": [
+        "SK-FINOPS",
+        "SK-MATH"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Расчёт включает токены, GPU часы, хранение, индексы, трассы, egress и простои с единицами измерения.",
+        "Чувствительность к нагрузке/cache/fallback показана сценариями; неподтверждённая цена помечена unknown, есть hard limit и stop condition."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M08-03",
+      "module_id": "M08",
+      "title": "Доказать перенос навыков во все шесть capstones",
+      "skill_ids": [
+        "SK-DOMAIN",
+        "SK-EVALS",
+        "SK-SYSTEM-DESIGN"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Каждый из шести проектов имеет собственный dataset, baseline и критерии из паспорта.",
+        "Общий SDK/RAG компонент не подменяет предметную приёмку и отдельную демонстрацию каждого проекта."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M08-04",
+      "module_id": "M08",
+      "title": "Провести устную архитектурную защиту",
+      "skill_ids": [
+        "SK-SYSTEM-DESIGN",
+        "SK-SECURITY"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Ученик самостоятельно объясняет компромисс и разбирает новый отказный сценарий.",
+        "Краткая защита одного решения проведена на английском; вопросы и помощь сохранены без оценки акцента как инженерного навыка."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    },
+    {
+      "id": "O-M08-05",
+      "module_id": "M08",
+      "title": "Организовать эксплуатационный цикл и пересмотр решений",
+      "skill_ids": [
+        "SK-CI",
+        "SK-OBSERVABILITY",
+        "SK-FINOPS",
+        "SK-MEMORY"
+      ],
+      "criterion_version": "1.0.0",
+      "criteria": [
+        "Runbook содержит обнаружение, эскалацию, rollback, восстановление и удаление данных.",
+        "Повторная проверка на новом случае отделена от первоначальной попытки; изменения критериев версионированы и не стирают историю."
+      ],
+      "project_ids": [
+        "support-agent",
+        "incident-analyst",
+        "contract-auditor",
+        "text-to-sql",
+        "recruitment-assistant",
+        "sales-assistant"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "D00",
+      "module_id": "M00",
+      "title": "Диагностика Python, HTTP, asyncio и JSON",
+      "kind": "diagnostic",
+      "state": "ready",
+      "material_path": "projects/learning-hub/course/materials/D00.md",
+      "outcome_ids": [
+        "O-M00-01",
+        "O-M00-02",
+        "O-M00-03",
+        "O-M00-04",
+        "O-M00-05"
+      ]
+    },
+    {
+      "id": "M00-THEORY",
+      "module_id": "M00",
+      "title": "Инженерный Python: Теория и разобранные примеры",
+      "kind": "lesson",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M00-01",
+        "O-M00-02",
+        "O-M00-03",
+        "O-M00-04",
+        "O-M00-05"
+      ]
+    },
+    {
+      "id": "M00-PRACTICE",
+      "module_id": "M00",
+      "title": "Инженерный Python: Эксперимент и перенос в проект",
+      "kind": "lab",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M00-01",
+        "O-M00-02",
+        "O-M00-03",
+        "O-M00-04",
+        "O-M00-05"
+      ]
+    },
+    {
+      "id": "M00-CHECK",
+      "module_id": "M00",
+      "title": "Инженерный Python: Независимая проверка и повторение",
+      "kind": "assessment",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M00-01",
+        "O-M00-02",
+        "O-M00-03",
+        "O-M00-04",
+        "O-M00-05"
+      ]
+    },
+    {
+      "id": "L00",
+      "module_id": "M01",
+      "title": "Python, HTTP и прямой вызов LLM",
+      "kind": "lesson",
+      "state": "ready",
+      "material_path": "projects/learning-hub/course/materials/L00.md",
+      "outcome_ids": [
+        "O-M01-01",
+        "O-M01-02",
+        "O-M01-03"
+      ]
+    },
+    {
+      "id": "LAB01",
+      "module_id": "M01",
+      "title": "Локальная модель через официальный SDK",
+      "kind": "lab",
+      "state": "ready",
+      "material_path": "labs/direct-llm-api/README.md",
+      "outcome_ids": [
+        "O-M01-01",
+        "O-M01-02",
+        "O-M01-03"
+      ]
+    },
+    {
+      "id": "M01-THEORY",
+      "module_id": "M01",
+      "title": "Прямой LLM API: Теория и разобранные примеры",
+      "kind": "lesson",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M01-01",
+        "O-M01-02",
+        "O-M01-03",
+        "O-M01-04",
+        "O-M01-05"
+      ]
+    },
+    {
+      "id": "M01-PRACTICE",
+      "module_id": "M01",
+      "title": "Прямой LLM API: Эксперимент и перенос в проект",
+      "kind": "lab",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M01-01",
+        "O-M01-02",
+        "O-M01-03",
+        "O-M01-04",
+        "O-M01-05"
+      ]
+    },
+    {
+      "id": "M01-CHECK",
+      "module_id": "M01",
+      "title": "Прямой LLM API: Независимая проверка и повторение",
+      "kind": "assessment",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M01-01",
+        "O-M01-02",
+        "O-M01-03",
+        "O-M01-04",
+        "O-M01-05"
+      ]
+    },
+    {
+      "id": "M02-THEORY",
+      "module_id": "M02",
+      "title": "Основы AI Engineering: RAG и агенты: Теория и разобранные примеры",
+      "kind": "lesson",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M02-01",
+        "O-M02-02",
+        "O-M02-03",
+        "O-M02-04",
+        "O-M02-05"
+      ]
+    },
+    {
+      "id": "M02-PRACTICE",
+      "module_id": "M02",
+      "title": "Основы AI Engineering: RAG и агенты: Эксперимент и перенос в проект",
+      "kind": "lab",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M02-01",
+        "O-M02-02",
+        "O-M02-03",
+        "O-M02-04",
+        "O-M02-05"
+      ]
+    },
+    {
+      "id": "M02-CHECK",
+      "module_id": "M02",
+      "title": "Основы AI Engineering: RAG и агенты: Независимая проверка и повторение",
+      "kind": "assessment",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M02-01",
+        "O-M02-02",
+        "O-M02-03",
+        "O-M02-04",
+        "O-M02-05"
+      ]
+    },
+    {
+      "id": "M03-THEORY",
+      "module_id": "M03",
+      "title": "Оценка и наблюдаемость: Теория и разобранные примеры",
+      "kind": "lesson",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M03-01",
+        "O-M03-02",
+        "O-M03-03",
+        "O-M03-04",
+        "O-M03-05"
+      ]
+    },
+    {
+      "id": "M03-PRACTICE",
+      "module_id": "M03",
+      "title": "Оценка и наблюдаемость: Эксперимент и перенос в проект",
+      "kind": "lab",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M03-01",
+        "O-M03-02",
+        "O-M03-03",
+        "O-M03-04",
+        "O-M03-05"
+      ]
+    },
+    {
+      "id": "M03-CHECK",
+      "module_id": "M03",
+      "title": "Оценка и наблюдаемость: Независимая проверка и повторение",
+      "kind": "assessment",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M03-01",
+        "O-M03-02",
+        "O-M03-03",
+        "O-M03-04",
+        "O-M03-05"
+      ]
+    },
+    {
+      "id": "M04-THEORY",
+      "module_id": "M04",
+      "title": "Устойчивый backend и безопасность: Теория и разобранные примеры",
+      "kind": "lesson",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M04-01",
+        "O-M04-02",
+        "O-M04-03",
+        "O-M04-04",
+        "O-M04-05"
+      ]
+    },
+    {
+      "id": "M04-PRACTICE",
+      "module_id": "M04",
+      "title": "Устойчивый backend и безопасность: Эксперимент и перенос в проект",
+      "kind": "lab",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M04-01",
+        "O-M04-02",
+        "O-M04-03",
+        "O-M04-04",
+        "O-M04-05"
+      ]
+    },
+    {
+      "id": "M04-CHECK",
+      "module_id": "M04",
+      "title": "Устойчивый backend и безопасность: Независимая проверка и повторение",
+      "kind": "assessment",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M04-01",
+        "O-M04-02",
+        "O-M04-03",
+        "O-M04-04",
+        "O-M04-05"
+      ]
+    },
+    {
+      "id": "M05-THEORY",
+      "module_id": "M05",
+      "title": "Поиск и хранилища: Теория и разобранные примеры",
+      "kind": "lesson",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M05-01",
+        "O-M05-02",
+        "O-M05-03",
+        "O-M05-04",
+        "O-M05-05"
+      ]
+    },
+    {
+      "id": "M05-PRACTICE",
+      "module_id": "M05",
+      "title": "Поиск и хранилища: Эксперимент и перенос в проект",
+      "kind": "lab",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M05-01",
+        "O-M05-02",
+        "O-M05-03",
+        "O-M05-04",
+        "O-M05-05"
+      ]
+    },
+    {
+      "id": "M05-CHECK",
+      "module_id": "M05",
+      "title": "Поиск и хранилища: Независимая проверка и повторение",
+      "kind": "assessment",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M05-01",
+        "O-M05-02",
+        "O-M05-03",
+        "O-M05-04",
+        "O-M05-05"
+      ]
+    },
+    {
+      "id": "M06-THEORY",
+      "module_id": "M06",
+      "title": "Inference и MLOps: Теория и разобранные примеры",
+      "kind": "lesson",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M06-01",
+        "O-M06-02",
+        "O-M06-03",
+        "O-M06-04",
+        "O-M06-05"
+      ]
+    },
+    {
+      "id": "M06-PRACTICE",
+      "module_id": "M06",
+      "title": "Inference и MLOps: Эксперимент и перенос в проект",
+      "kind": "lab",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M06-01",
+        "O-M06-02",
+        "O-M06-03",
+        "O-M06-04",
+        "O-M06-05"
+      ]
+    },
+    {
+      "id": "M06-CHECK",
+      "module_id": "M06",
+      "title": "Inference и MLOps: Независимая проверка и повторение",
+      "kind": "assessment",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M06-01",
+        "O-M06-02",
+        "O-M06-03",
+        "O-M06-04",
+        "O-M06-05"
+      ]
+    },
+    {
+      "id": "M07-THEORY",
+      "module_id": "M07",
+      "title": "Fine-tuning: Теория и разобранные примеры",
+      "kind": "lesson",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M07-01",
+        "O-M07-02",
+        "O-M07-03",
+        "O-M07-04",
+        "O-M07-05"
+      ]
+    },
+    {
+      "id": "M07-PRACTICE",
+      "module_id": "M07",
+      "title": "Fine-tuning: Эксперимент и перенос в проект",
+      "kind": "lab",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M07-01",
+        "O-M07-02",
+        "O-M07-03",
+        "O-M07-04",
+        "O-M07-05"
+      ]
+    },
+    {
+      "id": "M07-CHECK",
+      "module_id": "M07",
+      "title": "Fine-tuning: Независимая проверка и повторение",
+      "kind": "assessment",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M07-01",
+        "O-M07-02",
+        "O-M07-03",
+        "O-M07-04",
+        "O-M07-05"
+      ]
+    },
+    {
+      "id": "M08-THEORY",
+      "module_id": "M08",
+      "title": "System Design и FinOps: Теория и разобранные примеры",
+      "kind": "lesson",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M08-01",
+        "O-M08-02",
+        "O-M08-03",
+        "O-M08-04",
+        "O-M08-05"
+      ]
+    },
+    {
+      "id": "M08-PRACTICE",
+      "module_id": "M08",
+      "title": "System Design и FinOps: Эксперимент и перенос в проект",
+      "kind": "lab",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M08-01",
+        "O-M08-02",
+        "O-M08-03",
+        "O-M08-04",
+        "O-M08-05"
+      ]
+    },
+    {
+      "id": "M08-CHECK",
+      "module_id": "M08",
+      "title": "System Design и FinOps: Независимая проверка и повторение",
+      "kind": "assessment",
+      "state": "planned",
+      "material_path": null,
+      "outcome_ids": [
+        "O-M08-01",
+        "O-M08-02",
+        "O-M08-03",
+        "O-M08-04",
+        "O-M08-05"
+      ]
+    }
+  ]
+}

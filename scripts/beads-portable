@@ -1,0 +1,290 @@
+#!/usr/bin/env python3
+"""Изолированный доступ к aie и проверяемый JSONL перенос через Beads 1.0.3."""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+from pathlib import Path
+import pwd
+import re
+import subprocess
+import sys
+import tempfile
+from datetime import datetime, timezone
+
+ROOT = Path(__file__).resolve().parent.parent
+BINARY = Path.home() / '.local/bin/bd.real'
+VERSION = '1.0.3'
+ALLOWED = {'ready', 'list', 'status', 'show', 'count', 'search', 'create', 'update',
+           'close', 'reopen', 'dep', 'comments', 'comment', 'label', 'priority',
+           'context', 'info', 'where', 'version', 'export', 'help', '--help', '--version'}
+FORBIDDEN = {'--global', '--db', '--database', '--backend', '--config', '--repo',
+             '--repo-path', '--path', '--directory', '--cwd', '--beads-dir',
+             '--socket', '--data-dir', '--profile', '-C', '-o', '--output'}
+READS = {'ready', 'list', 'status', 'show', 'count', 'search', 'context', 'info',
+         'where', 'version', 'export', 'help', '--help', '--version'}
+
+
+def environment(config_home: Path) -> dict[str, str]:
+    """Allowlist вместо наследования BEADS_*, BD_*, DOLT_*, Git и proxy env."""
+    user = pwd.getpwuid(os.getuid())
+    return {'HOME': user.pw_dir, 'USER': user.pw_name, 'PATH': '/usr/bin:/bin',
+            'LANG': 'C.UTF-8', 'LC_ALL': 'C.UTF-8',
+            'XDG_CONFIG_HOME': str(config_home),
+            'BD_NON_INTERACTIVE': '1', 'BEADS_ACTOR': user.pw_name,
+            'BEADS_DOLT_SERVER_MODE': 'false', 'BEADS_DOLT_SHARED_SERVER': 'false',
+            'BEADS_DOLT_AUTO_START': 'false',
+            'GIT_CONFIG_GLOBAL': '/dev/null', 'GIT_CONFIG_NOSYSTEM': '1',
+            'GIT_AUTHOR_NAME': 'aie-local', 'GIT_AUTHOR_EMAIL': 'aie-local@localhost',
+            'GIT_COMMITTER_NAME': 'aie-local', 'GIT_COMMITTER_EMAIL': 'aie-local@localhost'}
+
+
+def invoke(root: Path, args: list[str], *, readonly: bool = False) -> str:
+    if not BINARY.is_file():
+        raise ValueError(f'Нужен установленный Beads {VERSION}: {BINARY}')
+    with tempfile.TemporaryDirectory(prefix='aie-bd-config-') as td:
+        command = [str(BINARY), '--sandbox', *(['--readonly'] if readonly else []), *args]
+        result = subprocess.run(command, cwd=root, env=environment(Path(td)),
+                                text=True, capture_output=True)
+    if result.returncode:
+        raise RuntimeError(f'Beads завершился кодом {result.returncode}: '
+                           f'{result.stderr.strip() or result.stdout.strip()}')
+    return result.stdout
+
+
+def context(root: Path) -> dict:
+    root = root.resolve()
+    directory = root / '.beads'
+    for path in [directory, directory / 'metadata.json', directory / 'config.yaml',
+                 directory / 'embeddeddolt']:
+        if path.is_symlink():
+            raise ValueError(f'Отказ от перенаправленного пути Beads: {path}')
+    if not (directory / 'metadata.json').is_file() or (directory / 'redirect').exists():
+        raise ValueError('Нужна собственная инициализированная .beads без redirect')
+    identity = json.loads(invoke(root, ['context', '--json'], readonly=True))
+    expected = {'backend': 'dolt', 'bd_version': VERSION, 'dolt_mode': 'embedded',
+                'database': 'aie', 'is_redirected': False,
+                'beads_dir': str(directory), 'repo_root': str(root), 'cwd_repo_root': str(root)}
+    for key, value in expected.items():
+        if identity.get(key) != value:
+            raise ValueError(f'Небезопасный контекст Beads: поле {key} не соответствует локальному aie')
+    return identity
+
+
+def validate_command(args: list[str]) -> None:
+    if not args or args[0] not in ALLOWED:
+        raise ValueError('Wrapper разрешает только обычные issue-команды; init/import/config/remote/sql отключены')
+    for arg in args:
+        flag = arg.split('=', 1)[0]
+        if flag in FORBIDDEN or flag.startswith('--server') or flag.startswith('--dolt-'):
+            raise ValueError(f'Переопределение контекста/пути не разрешено: {flag}')
+        if arg.startswith('-o') and not arg.startswith('--'):
+            raise ValueError('Вывод в произвольный файл через wrapper отключён; используйте snapshot')
+
+
+def wrapper_main(args: list[str]) -> int:
+    validate_command(args)
+    context(ROOT)
+    sys.stdout.write(invoke(ROOT, args, readonly=args[0] in READS))
+    return 0
+
+
+def parse_jsonl(raw: str) -> list[dict]:
+    records = [json.loads(line) for line in raw.splitlines() if line.strip()]
+    ids = set()
+    for record in records:
+        if not isinstance(record, dict):
+            raise ValueError('Запись JSONL должна быть объектом')
+        for field in ['dependencies', 'comments', 'labels']:
+            if field in record and not isinstance(record[field], list):
+                raise ValueError(f'Поле {field} должно быть списком')
+        if any(not isinstance(item, dict) for field in ['dependencies', 'comments'] for item in record.get(field, [])):
+            raise ValueError('Зависимость/комментарий должен быть объектом')
+        if record.get('_type', 'issue') == 'issue':
+            iid = record.get('id', '')
+            if not isinstance(iid, str) or not iid.startswith('aie-') or iid in ids:
+                raise ValueError('Snapshot содержит чужой или повторный issue ID')
+            ids.add(iid)
+        elif record.get('_type') != 'memory':
+            raise ValueError('Неизвестный тип записи: нельзя обещать корректный round-trip')
+    for record in records:
+        for dep in record.get('dependencies', []):
+            if dep.get('issue_id') not in ids or dep.get('depends_on_id') not in ids:
+                raise ValueError('Snapshot содержит отсутствующую/внешнюю зависимость')
+    return records
+
+
+def canonical(records: list[dict]) -> list[dict]:
+    """Сравниваем все экспортируемые поля кроме наблюдённых изменений import."""
+    normalized = json.loads(json.dumps(records))
+    for record in normalized:
+        for key in ['dependency_count', 'dependent_count', 'comment_count']:
+            record.pop(key, None)
+        for dep in record.get('dependencies', []):
+            dep.pop('created_by', None)  # CLI ставит автора текущего импорта.
+        for comment in record.get('comments', []):
+            comment.pop('id', None)  # CLI генерирует новый comment ID.
+        for key in ['dependencies', 'comments', 'labels']:
+            if key in record:
+                record[key].sort(key=lambda item: json.dumps(item, sort_keys=True))
+    return sorted(normalized, key=lambda item: json.dumps(item, sort_keys=True))
+
+
+def counts(records: list[dict]) -> dict[str, int]:
+    issues = [r for r in records if r.get('_type', 'issue') == 'issue']
+    return {'issues': len(issues), 'dependencies': sum(len(r.get('dependencies', [])) for r in issues),
+            'comments': sum(len(r.get('comments', [])) for r in issues),
+            'memories': sum(r.get('_type') == 'memory' for r in records)}
+
+
+def digest(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def export_records(root: Path) -> tuple[str, list[dict]]:
+    context(root)
+    raw = invoke(root, ['export', '--all'], readonly=True)
+    return raw, parse_jsonl(raw)
+
+
+def public_records(records: list[dict]) -> tuple[list[dict], list[str]]:
+    """Редактирует только структурированные identity/email-поля, исходные records не меняет."""
+    result = json.loads(json.dumps(records))
+    paths: list[str] = []
+    email = re.compile(r"[^\s<>@]+@[^\s<>@]+")
+    identities = {'owner', 'assignee', 'created_by', 'updated_by', 'author'}
+
+    def visit(value, path: str) -> None:
+        if isinstance(value, dict):
+            for key, child in value.items():
+                location = f'{path}.{key}'
+                if (key.lower() in identities or 'email' in key.lower()) and isinstance(child, str) and email.search(child):
+                    value[key] = 'VadimMukabenov'
+                    paths.append(location)
+                else:
+                    visit(child, location)
+        elif isinstance(value, list):
+            for index, child in enumerate(value):
+                visit(child, f'{path}[{index}]')
+
+    visit(result, 'records')
+    return result, paths
+
+
+def write_snapshot(root: Path, destination: Path, *, public: bool = False) -> dict:
+    identity = context(root)
+    raw, records = export_records(root)
+    redactions: list[str] = []
+    if public:
+        records, redactions = public_records(records)
+        raw = ''.join(json.dumps(record, ensure_ascii=False, separators=(',', ':')) + '\n' for record in records)
+    # Не заменяем существующий snapshot: старое проверенное состояние сохраняется.
+    destination.mkdir(mode=0o700, parents=False, exist_ok=False)
+    data = raw.encode('utf-8')
+    (destination / 'issues.jsonl').write_bytes(data)
+    manifest = {'schema_version': 1, 'format': 'beads-cli-export-jsonl', 'beads_version': VERSION,
+                'created_at': datetime.now(timezone.utc).isoformat(), 'prefix': 'aie',
+                'source_project_id': identity['project_id'], 'sha256': digest(data), 'counts': counts(records),
+                'public': public, 'redactions': {'count': len(redactions), 'paths': redactions,
+                                               'replacement': 'VadimMukabenov' if public else None},
+                'limitations': ['Импорт создаёт новые comment IDs.',
+                                'Автор dependency.created_by заменяется автором импорта.',
+                                'Dolt history, event/audit history, конфигурация и credentials не входят в export.']}
+    if public:
+        manifest['limitations'].append('Публичный snapshot не сохраняет email структурированных identity/email-полей.')
+    (destination / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
+    return manifest
+
+
+def read_snapshot(source: Path) -> tuple[str, list[dict], dict]:
+    for name in ['manifest.json', 'issues.jsonl']:
+        if (source / name).is_symlink():
+            raise ValueError('Snapshot не должен содержать symlink')
+    manifest = json.loads((source / 'manifest.json').read_text())
+    data = (source / 'issues.jsonl').read_bytes()
+    if (manifest.get('schema_version'), manifest.get('format'), manifest.get('beads_version'),
+        manifest.get('prefix')) != (1, 'beads-cli-export-jsonl', VERSION, 'aie'):
+        raise ValueError('Неподдерживаемая версия/формат snapshot')
+    if digest(data) != manifest.get('sha256'):
+        raise ValueError('Checksum snapshot не совпадает')
+    raw = data.decode('utf-8'); records = parse_jsonl(raw)
+    if manifest.get('public') is True:
+        _, remaining = public_records(records)
+        if remaining:
+            raise ValueError('Public snapshot всё ещё содержит email в identity/email-полях')
+        redactions = manifest.get('redactions', {})
+        if (redactions.get('replacement') != 'VadimMukabenov' or
+            not isinstance(redactions.get('paths'), list) or
+            redactions.get('count') != len(redactions['paths'])):
+            raise ValueError('Невалидное описание public redactions')
+    if not isinstance(manifest.get('limitations'), list):
+        raise ValueError('В manifest отсутствует список ограничений')
+    if counts(records) != manifest.get('counts'):
+        raise ValueError('Число записей не совпадает с manifest')
+    return raw, records, manifest
+
+
+def initialize_fresh(destination: Path) -> None:
+    destination = destination.parent.resolve() / destination.name
+    if destination == ROOT or ROOT in destination.parents:
+        raise ValueError('Restore внутри живого репозитория запрещён')
+    # mkdir без exist_ok резервирует только НОВЫЙ путь; никогда не очищаем старый.
+    destination.mkdir(mode=0o700, parents=False, exist_ok=False)
+    with tempfile.TemporaryDirectory(prefix='aie-bd-init-') as td:
+        subprocess.run(['git', 'init', '--quiet', str(destination)], env=environment(Path(td)),
+                       check=True, capture_output=True, text=True)
+    invoke(destination, ['init', '--prefix', 'aie', '--skip-hooks', '--skip-agents', '--non-interactive'])
+    context(destination)
+    _, empty = export_records(destination)
+    if empty:
+        raise ValueError('Новая база не пуста: импорт отменён')
+
+
+def restore(source: Path, destination: Path) -> dict:
+    destination = destination.parent.resolve() / destination.name
+    _, expected, manifest = read_snapshot(source)
+    initialize_fresh(destination)
+    # Импортируется только заранее проверенный абсолютный файл в только что созданную базу.
+    invoke(destination, ['import', str(source / 'issues.jsonl')])
+    _, actual = export_records(destination)
+    if canonical(actual) != canonical(expected):
+        raise ValueError('Round-trip mismatch: restore сохранён для анализа, но НЕ признан успешным')
+    return {'restored_to': str(destination), 'counts': counts(actual), 'verified': True,
+            'public': manifest.get('public', False), 'redactions': manifest.get('redactions', {}),
+            'comparison': 'Все export-поля кроме dependency.created_by, comment.id и вычисляемых counts',
+            'limitations': manifest['limitations']}
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    sub = parser.add_subparsers(dest='command', required=True)
+    snapshot = sub.add_parser('snapshot', help='Readonly export живого aie в НОВЫЙ каталог')
+    snapshot.add_argument('destination', type=Path)
+    snapshot.add_argument('--public', action='store_true',
+                          help='Заменить email в структурированных identity/email полях на VadimMukabenov')
+    restore_parser = sub.add_parser('restore', help='Восстановить в НОВЫЙ отдельный каталог и сравнить')
+    restore_parser.add_argument('source', type=Path)
+    restore_parser.add_argument('destination', type=Path)
+    verify = sub.add_parser('verify', help='Проверить snapshot и restore во временном каталоге')
+    verify.add_argument('source', type=Path)
+    args = parser.parse_args()
+    if args.command == 'snapshot':
+        report = write_snapshot(ROOT, args.destination.absolute(), public=args.public)
+    elif args.command == 'restore':
+        report = restore(args.source.resolve(), args.destination.absolute())
+    else:
+        with tempfile.TemporaryDirectory(prefix='aie-bd-verify-') as td:
+            report = restore(args.source.resolve(), Path(td) / 'restored')
+            report['restored_to'] = 'удалённый после проверки временный каталог'
+    print(json.dumps(report, ensure_ascii=False, indent=2))
+    return 0
+
+
+if __name__ == '__main__':
+    try:
+        raise SystemExit(main())
+    except (ValueError, OSError, RuntimeError, subprocess.SubprocessError) as error:
+        print(f'STOP: {error}', file=sys.stderr)
+        raise SystemExit(1)

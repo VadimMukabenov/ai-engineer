@@ -1,0 +1,164 @@
+{
+  "SK-PYTHON": [
+    "Python",
+    "Python or Kotlin",
+    "Python or TypeScript"
+  ],
+  "SK-ASYNC": [
+    "asyncio",
+    "Async Python",
+    "Async programming"
+  ],
+  "SK-HTTP": [
+    "HTTP APIs",
+    "REST",
+    "REST API",
+    "REST APIs"
+  ],
+  "SK-PYDANTIC": [
+    "Pydantic"
+  ],
+  "SK-FASTAPI": [
+    "FastAPI",
+    "FastAPI or similar",
+    "Django/DRF or FastAPI"
+  ],
+  "SK-UV": [],
+  "SK-DIRECT-API": [],
+  "SK-PROVIDER": [],
+  "SK-STREAMING": [
+    "Streaming",
+    "SSE",
+    "Streaming APIs",
+    "Streaming inference",
+    "Tool calling",
+    "Function calling",
+    "Tool use"
+  ],
+  "SK-RESPONSES": [],
+  "SK-LLM-FOUNDATIONS": [
+    "attention",
+    "tokenization",
+    "Embeddings",
+    "transformers"
+  ],
+  "SK-MATH": [
+    "statistics",
+    "A/B testing"
+  ],
+  "SK-ML": [
+    "ML",
+    "ML fundamentals",
+    "AI/ML fundamentals",
+    "Classical ML",
+    "ML lifecycle"
+  ],
+  "SK-RAG": [
+    "RAG",
+    "advanced RAG",
+    "Chunking"
+  ],
+  "SK-HYBRID": [
+    "Hybrid retrieval",
+    "Hybrid search",
+    "Reranking"
+  ],
+  "SK-LANGGRAPH": [
+    "LangGraph",
+    "LangChain/LangGraph"
+  ],
+  "SK-MEMORY": [],
+  "SK-MCP": [
+    "MCP",
+    "MCP server development"
+  ],
+  "SK-HITL": [
+    "HITL"
+  ],
+  "SK-EVALS": [
+    "evals",
+    "LLM evals",
+    "LLM evaluation",
+    "AI evaluation",
+    "ML evaluation"
+  ],
+  "SK-JUDGE": [
+    "LLM-as-judge"
+  ],
+  "SK-OBSERVABILITY": [
+    "Observability",
+    "LLM observability",
+    "LLM tracing",
+    "Tracing",
+    "Langfuse",
+    "OpenTelemetry",
+    "Agent monitoring",
+    "model monitoring"
+  ],
+  "SK-PERFORMANCE": [],
+  "SK-DATASET": [],
+  "SK-RESILIENCE": [
+    "retry/backoff",
+    "rate limits"
+  ],
+  "SK-QUEUES": [
+    "queues",
+    "task queues",
+    "Async task queues",
+    "message brokers",
+    "Kafka",
+    "RabbitMQ",
+    "Celery",
+    "Celery/arq/Dramatiq",
+    "Kafka / Redis / RabbitMQ (альтернативы в тексте)"
+  ],
+  "SK-IDEMPOTENCY": [
+    "idempotency"
+  ],
+  "SK-SECURITY": [
+    "LLM security",
+    "prompt injection",
+    "Agent safety"
+  ],
+  "SK-POSTGRES": [
+    "PostgreSQL",
+    "PostgreSQL or Redis"
+  ],
+  "SK-QDRANT": [
+    "Qdrant"
+  ],
+  "SK-OPENSEARCH": [],
+  "SK-ANN": [],
+  "SK-INFERENCE": [],
+  "SK-QUANTIZATION": [],
+  "SK-BATCHING": [],
+  "SK-DOCKER": [
+    "Docker"
+  ],
+  "SK-CI": [
+    "CI",
+    "CI/CD",
+    "GitLab CI/CD"
+  ],
+  "SK-K8S": [
+    "Kubernetes"
+  ],
+  "SK-HF": [
+    "Hugging Face",
+    "PyTorch or TensorFlow"
+  ],
+  "SK-SFT": [],
+  "SK-LORA": [
+    "LoRA",
+    "LoRA/PEFT"
+  ],
+  "SK-DPO": [],
+  "SK-SYSTEM-DESIGN": [
+    "System design",
+    "Architecture"
+  ],
+  "SK-FINOPS": [
+    "FinOps"
+  ],
+  "SK-DOMAIN": []
+}

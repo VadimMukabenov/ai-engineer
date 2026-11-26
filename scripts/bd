@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""Только локальный embedded aie; global bd намеренно не используется."""
+from pathlib import Path
+import runpy
+import sys
+
+if __name__ == '__main__':
+    try:
+        api = runpy.run_path(str(Path(__file__).resolve().with_name('beads-portable')))
+        raise SystemExit(api['wrapper_main'](sys.argv[1:]))
+    except (OSError, ValueError, RuntimeError) as error:
+        print(f'STOP: {error}', file=sys.stderr)
+        raise SystemExit(1)

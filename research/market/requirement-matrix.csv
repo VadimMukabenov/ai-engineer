@@ -1,0 +1,531 @@
+vacancy_id,company,url,checked_on,verification,importance,requirement,mapping,skill_ids,outcome_ids,project_ids
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,required,Backend engineering,needs_review,,,
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,required,Embeddings,exact_alias,SK-LLM-FOUNDATIONS,O-M01-05;O-M02-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,required,Vector search,needs_review,,,
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,required,Chunking,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,required,Reranking,exact_alias,SK-HYBRID,O-M02-02;O-M05-04,contract-auditor;incident-analyst;text-to-sql
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,required,LLM tracing,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,preferred,Search infrastructure,needs_review,,,
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,preferred,Fine-tuning,needs_review,,,
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,preferred,Graph search,needs_review,,,
+global-textyess-d69a6429,TextYess,https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a,2026-11-26,verified,preferred,E-commerce,needs_review,,,
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,required,Async Python,exact_alias,SK-ASYNC,O-M00-03;O-M01-01;O-M04-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,required,REST APIs,exact_alias,SK-HTTP,O-M00-02;O-M01-03;O-M04-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,required,Microservices,needs_review,,,
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,required,Agent orchestration,needs_review,,,
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,required,Hybrid retrieval,exact_alias,SK-HYBRID,O-M02-02;O-M05-04,contract-auditor;incident-analyst;text-to-sql
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,required,Tool calling,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,required,Structured outputs,needs_review,,,
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,required,LLM evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,required,LLM observability,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,preferred,Azure,needs_review,,,
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,preferred,Banking,needs_review,,,
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,preferred,Graph databases,needs_review,,,
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,preferred,MCP,exact_alias,SK-MCP,O-M02-04,sales-assistant;support-agent
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,preferred,Multi-agent systems,needs_review,,,
+global-titan-ai-297cf9a9,Titan AI,https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64,2026-11-26,verified,preferred,Multi-tenant SaaS,needs_review,,,
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,required,Python or TypeScript,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,required,API design,needs_review,,,
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,required,LLM applications,needs_review,,,
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,required,Agent frameworks,needs_review,,,
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,required,Vector databases,needs_review,,,
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,required,Cloud,needs_review,,,
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,required,Containers,needs_review,,,
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,required,CI/CD,exact_alias,SK-CI,O-M06-04;O-M07-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,required,Observability,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,preferred,Fine-tuning,needs_review,,,
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,preferred,Reinforcement learning,needs_review,,,
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,preferred,AI benchmarks,needs_review,,,
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,preferred,Knowledge systems,needs_review,,,
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,preferred,Agent safety,exact_alias,SK-SECURITY,O-M01-02;O-M01-04;O-M02-04;O-M03-04;O-M04-04;O-M05-01;O-M07-05;O-M08-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-bio-80145424,BIO,https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616,2026-11-26,verified,preferred,Scientific computing,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,required,Rust,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,required,Python-Rust extensions,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,required,Production ML,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,required,Neural networks,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,required,Profiling,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,required,Performance optimization,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,preferred,Tabular ML,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,preferred,C++,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,preferred,PyTorch internals,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,preferred,Numerical computing,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,preferred,Distributed training,needs_review,,,
+global-fundamental-9ce70592,Fundamental,https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461,2026-11-26,verified,preferred,Rust async,needs_review,,,
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,FastAPI,exact_alias,SK-FASTAPI,O-M00-04;O-M04-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,PostgreSQL,exact_alias,SK-POSTGRES,O-M04-03;O-M05-01;O-M05-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,Object storage,needs_review,,,
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,Async task queues,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,Microservices,needs_review,,,
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,MCP,exact_alias,SK-MCP,O-M02-04,sales-assistant;support-agent
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,Agentic AI,needs_review,,,
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,Observability,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,AWS,needs_review,,,
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,Docker,exact_alias,SK-DOCKER,O-M06-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,required,Kubernetes,exact_alias,SK-K8S,O-M06-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,preferred,LangChain,needs_review,,,
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,preferred,Ad technology,needs_review,,,
+global-splitmetrics-ee454d6e,SplitMetrics,https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20,2026-11-26,verified,preferred,OLAP databases,needs_review,,,
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,required,Backend engineering,needs_review,,,
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,required,Async programming,exact_alias,SK-ASYNC,O-M00-03;O-M01-01;O-M04-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,required,Testing,needs_review,,,
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,required,Observability,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,required,Tracing,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,required,Performance optimization,needs_review,,,
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,required,Memory management,needs_review,,,
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,required,System design,exact_alias,SK-SYSTEM-DESIGN,O-M05-05;O-M08-01;O-M08-03;O-M08-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,required,Mentoring,needs_review,,,
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,preferred,ML deployment,needs_review,,,
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,preferred,Agent runtime,needs_review,,,
+global-mimica-41660ce4,Mimica,https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021,2026-11-26,verified,preferred,Scale-up experience,needs_review,,,
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,required,Async Python,exact_alias,SK-ASYNC,O-M00-03;O-M01-01;O-M04-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,required,HTTP APIs,exact_alias,SK-HTTP,O-M00-02;O-M01-03;O-M04-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,required,Streaming,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,required,Agent frameworks,needs_review,,,
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,required,Tool calling,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,required,Structured outputs,needs_review,,,
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,required,LLM evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,required,Pydantic,exact_alias,SK-PYDANTIC,O-M00-04;O-M01-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,required,JSON Schema,needs_review,,,
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,preferred,AWS,needs_review,,,
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,preferred,Langfuse,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,preferred,OpenTelemetry,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,preferred,Datadog,needs_review,,,
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,preferred,LLM-as-judge,exact_alias,SK-JUDGE,O-M03-03;O-M07-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,preferred,Terraform,needs_review,,,
+global-future-4745515005,Future,https://job-boards.greenhouse.io/future/jobs/4745515005,2026-11-26,verified,preferred,CDK,needs_review,,,
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,SQL,needs_review,,,
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,TypeScript/Node.js,needs_review,,,
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,Production LLM agents,needs_review,,,
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,Agent SDKs,needs_review,,,
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,MCP,exact_alias,SK-MCP,O-M02-04,sales-assistant;support-agent
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,AWS Bedrock,needs_review,,,
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,AWS,needs_review,,,
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,Docker,exact_alias,SK-DOCKER,O-M06-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,CI/CD,exact_alias,SK-CI,O-M06-04;O-M07-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,Testing,needs_review,,,
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,Observability,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,required,AI coding tools,needs_review,,,
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,preferred,Langfuse,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,preferred,LiteLLM,needs_review,,,
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,preferred,OpenTelemetry,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,preferred,FinOps,exact_alias,SK-FINOPS,O-M03-05;O-M06-05;O-M08-02;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,preferred,Kafka,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,preferred,Temporal,needs_review,,,
+global-infuse-4735189005,INFUSE,https://job-boards.greenhouse.io/infuse/jobs/4735189005,2026-11-26,verified,preferred,B2B data,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,required,LLMs,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,required,Embeddings,exact_alias,SK-LLM-FOUNDATIONS,O-M01-05;O-M02-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,required,Semantic search,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,required,NLP,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,required,ML fundamentals,exact_alias,SK-ML,O-M02-05;O-M03-01;O-M07-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,required,Deep learning,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,required,PyTorch or TensorFlow,exact_alias,SK-HF,O-M07-01;O-M07-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,required,APIs,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,required,Vector databases,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,preferred,Knowledge management,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,preferred,Agents,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,preferred,Tool calling,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,preferred,Knowledge graphs,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,preferred,OCR,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,preferred,Multimodal AI,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,preferred,MLOps,needs_review,,,
+global-implicit-8039713,Implicit,https://job-boards.greenhouse.io/implicit/jobs/8039713,2026-11-26,verified,preferred,LLM evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,required,SQL,needs_review,,,
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,required,Cloud data platform,needs_review,,,
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,required,LLM applications,needs_review,,,
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,required,Tool use,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,required,LLM evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,required,REST APIs,exact_alias,SK-HTTP,O-M00-02;O-M01-03;O-M04-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,required,Git,needs_review,,,
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,preferred,AWS,needs_review,,,
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,preferred,Salesforce,needs_review,,,
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,preferred,HubSpot,needs_review,,,
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,preferred,Databricks,needs_review,,,
+global-gp-8034410003,G-P / Globalization Partners,https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003,2026-11-26,verified,preferred,Snowflake,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,Backend services,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,REST APIs,exact_alias,SK-HTTP,O-M00-02;O-M01-03;O-M04-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,Streaming APIs,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,LLM applications,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,Tool calling,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,Embeddings,exact_alias,SK-LLM-FOUNDATIONS,O-M01-05;O-M02-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,Vector search,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,SQL,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,Document extraction,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,Cloud,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,Containers,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,CI/CD,exact_alias,SK-CI,O-M06-04;O-M07-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,required,Infrastructure as code,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,preferred,MCP,exact_alias,SK-MCP,O-M02-04,sales-assistant;support-agent
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,preferred,Snowflake,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,preferred,AWS,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,preferred,Financial services,needs_review,,,
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,preferred,LLM observability,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-coderio-48ad8ddf,Coderio,https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2,2026-11-26,verified,preferred,TypeScript/Node.js,needs_review,,,
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,required,Production AI agents,needs_review,,,
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,required,Agent orchestration,needs_review,,,
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,required,Prompt engineering,needs_review,,,
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,required,Tool calling,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,required,LLM APIs,needs_review,,,
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,required,LLM evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,required,Tracing,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,preferred,Cloud,needs_review,,,
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,preferred,Docker,exact_alias,SK-DOCKER,O-M06-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,preferred,Kubernetes,exact_alias,SK-K8S,O-M06-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,preferred,Vector databases,needs_review,,,
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,preferred,Embeddings,exact_alias,SK-LLM-FOUNDATIONS,O-M01-05;O-M02-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,preferred,LLMOps,needs_review,,,
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,preferred,Classical ML,exact_alias,SK-ML,O-M02-05;O-M03-01;O-M07-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,preferred,Scientific data,needs_review,,,
+global-appsilon-7750183,Appsilon,https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer,2026-11-26,verified,preferred,Responsible AI,needs_review,,,
+global-maisa-19940,Maisa AI,https://careers.kula.ai/maisa/19940-applied-ai-engineer,2026-11-26,partial,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-maisa-19940,Maisa AI,https://careers.kula.ai/maisa/19940-applied-ai-engineer,2026-11-26,partial,required,Production AI,needs_review,,,
+global-maisa-19940,Maisa AI,https://careers.kula.ai/maisa/19940-applied-ai-engineer,2026-11-26,partial,required,LLMs,needs_review,,,
+global-maisa-19940,Maisa AI,https://careers.kula.ai/maisa/19940-applied-ai-engineer,2026-11-26,partial,required,LLM evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-maisa-19940,Maisa AI,https://careers.kula.ai/maisa/19940-applied-ai-engineer,2026-11-26,partial,required,Prompt optimization,needs_review,,,
+global-maisa-19940,Maisa AI,https://careers.kula.ai/maisa/19940-applied-ai-engineer,2026-11-26,partial,required,Context engineering,needs_review,,,
+global-maisa-19940,Maisa AI,https://careers.kula.ai/maisa/19940-applied-ai-engineer,2026-11-26,partial,required,ML evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-maisa-19940,Maisa AI,https://careers.kula.ai/maisa/19940-applied-ai-engineer,2026-11-26,partial,required,Performance optimization,needs_review,,,
+global-cloudlab-senior-ai-engineer,CloudLab Technologies,https://www.cloudlabweb.com/careers/senior-ai-engineer,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-cloudlab-senior-ai-engineer,CloudLab Technologies,https://www.cloudlabweb.com/careers/senior-ai-engineer,2026-11-26,verified,required,TypeScript,needs_review,,,
+global-cloudlab-senior-ai-engineer,CloudLab Technologies,https://www.cloudlabweb.com/careers/senior-ai-engineer,2026-11-26,verified,required,LLMs,needs_review,,,
+global-cloudlab-senior-ai-engineer,CloudLab Technologies,https://www.cloudlabweb.com/careers/senior-ai-engineer,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-cloudlab-senior-ai-engineer,CloudLab Technologies,https://www.cloudlabweb.com/careers/senior-ai-engineer,2026-11-26,verified,required,Function calling,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+global-cloudlab-senior-ai-engineer,CloudLab Technologies,https://www.cloudlabweb.com/careers/senior-ai-engineer,2026-11-26,verified,required,Agent orchestration,needs_review,,,
+global-cloudlab-senior-ai-engineer,CloudLab Technologies,https://www.cloudlabweb.com/careers/senior-ai-engineer,2026-11-26,verified,required,Vector databases,needs_review,,,
+global-cloudlab-senior-ai-engineer,CloudLab Technologies,https://www.cloudlabweb.com/careers/senior-ai-engineer,2026-11-26,verified,required,Streaming inference,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,Python or TypeScript,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,Prompt engineering,needs_review,,,
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,Context engineering,needs_review,,,
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,JSON Schema,needs_review,,,
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,Tool calling,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,Hybrid search,exact_alias,SK-HYBRID,O-M02-02;O-M05-04,contract-auditor;incident-analyst;text-to-sql
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,Reranking,exact_alias,SK-HYBRID,O-M02-02;O-M05-04,contract-auditor;incident-analyst;text-to-sql
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,Agent orchestration,needs_review,,,
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,State machines,needs_review,,,
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,LLM evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,LLM observability,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,LLM security,exact_alias,SK-SECURITY,O-M01-02;O-M01-04;O-M02-04;O-M03-04;O-M04-04;O-M05-01;O-M07-05;O-M08-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,Testing,needs_review,,,
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,Git,needs_review,,,
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,required,CI,exact_alias,SK-CI,O-M06-04;O-M07-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,preferred,Learning products,needs_review,,,
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,preferred,Assessment,needs_review,,,
+global-distantjob-8941192002,DistantJob (client undisclosed),https://job-boards.greenhouse.io/distantjob/jobs/8941192002,2026-11-26,verified,preferred,Regulated content,needs_review,,,
+global-arize-6128122004,Arize AI,https://job-boards.greenhouse.io/arizeai/jobs/6128122004,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-arize-6128122004,Arize AI,https://job-boards.greenhouse.io/arizeai/jobs/6128122004,2026-11-26,verified,required,Generative AI,needs_review,,,
+global-arize-6128122004,Arize AI,https://job-boards.greenhouse.io/arizeai/jobs/6128122004,2026-11-26,verified,required,Agent frameworks,needs_review,,,
+global-arize-6128122004,Arize AI,https://job-boards.greenhouse.io/arizeai/jobs/6128122004,2026-11-26,verified,required,Vector databases,needs_review,,,
+global-arize-6128122004,Arize AI,https://job-boards.greenhouse.io/arizeai/jobs/6128122004,2026-11-26,verified,required,LLM evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-arize-6128122004,Arize AI,https://job-boards.greenhouse.io/arizeai/jobs/6128122004,2026-11-26,verified,required,Technical writing,needs_review,,,
+global-arize-6128122004,Arize AI,https://job-boards.greenhouse.io/arizeai/jobs/6128122004,2026-11-26,verified,required,Developer community,needs_review,,,
+global-leiolai-applied-ai,Leiolai / Entlegnant,https://www.leiolai.com/careers/applied-ai-engineer/,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-leiolai-applied-ai,Leiolai / Entlegnant,https://www.leiolai.com/careers/applied-ai-engineer/,2026-11-26,verified,required,Production software,needs_review,,,
+global-leiolai-applied-ai,Leiolai / Entlegnant,https://www.leiolai.com/careers/applied-ai-engineer/,2026-11-26,verified,required,AI evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-leiolai-applied-ai,Leiolai / Entlegnant,https://www.leiolai.com/careers/applied-ai-engineer/,2026-11-26,verified,required,Debugging,needs_review,,,
+global-leiolai-applied-ai,Leiolai / Entlegnant,https://www.leiolai.com/careers/applied-ai-engineer/,2026-11-26,verified,required,Architecture,exact_alias,SK-SYSTEM-DESIGN,O-M05-05;O-M08-01;O-M08-03;O-M08-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-leiolai-applied-ai,Leiolai / Entlegnant,https://www.leiolai.com/careers/applied-ai-engineer/,2026-11-26,verified,preferred,Integrations,needs_review,,,
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,required,FastAPI or similar,exact_alias,SK-FASTAPI,O-M00-04;O-M04-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,required,LLM APIs,needs_review,,,
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,required,LangChain or LlamaIndex,needs_review,,,
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,required,Embeddings,exact_alias,SK-LLM-FOUNDATIONS,O-M01-05;O-M02-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,required,Vector databases,needs_review,,,
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,required,Docker,exact_alias,SK-DOCKER,O-M06-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,required,PostgreSQL or Redis,exact_alias,SK-POSTGRES,O-M04-03;O-M05-01;O-M05-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,required,Integration testing,needs_review,,,
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,required,LLM evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,preferred,Fine-tuning,needs_review,,,
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,preferred,Open-source LLMs,needs_review,,,
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,preferred,Agentic workflows,needs_review,,,
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,preferred,Distributed systems,needs_review,,,
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,preferred,Kafka,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+global-kake-56a4536c4a20,Kake,https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20,2026-11-26,verified,preferred,ML fundamentals,exact_alias,SK-ML,O-M02-05;O-M03-01;O-M07-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,Python or TypeScript,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,AI/ML fundamentals,exact_alias,SK-ML,O-M02-05;O-M03-01;O-M07-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,Production LLM applications,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,Agent orchestration,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,AWS,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,Containers,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,Infrastructure as code,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,CI/CD,exact_alias,SK-CI,O-M06-04;O-M07-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,LLM evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,Agent monitoring,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,Claude Code,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,required,MCP,exact_alias,SK-MCP,O-M02-04,sales-assistant;support-agent
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,GCP,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,Azure,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,Spec-driven development,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,MCP server development,exact_alias,SK-MCP,O-M02-04,sales-assistant;support-agent
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,AWS certification,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,Claude Code certification,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,Financial services,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,Healthcare,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,A2A,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,Go,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,Rust,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,Spark,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,Airflow,needs_review,,,
+global-provectus-0bf1decc,Provectus,https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff,2026-11-26,verified,preferred,Kafka,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,Python or Kotlin,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,Backend engineering,needs_review,,,
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,Distributed systems,needs_review,,,
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,AWS,needs_review,,,
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,MySQL,needs_review,,,
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,Kubernetes,exact_alias,SK-K8S,O-M06-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,Production AI,needs_review,,,
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,LLM gateways,needs_review,,,
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,MCP,exact_alias,SK-MCP,O-M02-04,sales-assistant;support-agent
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,LLM evaluation,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,Agent runtimes,needs_review,,,
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,System design,exact_alias,SK-SYSTEM-DESIGN,O-M05-05;O-M08-01;O-M08-03;O-M08-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,Testing,needs_review,,,
+global-affirm-8040267003,Affirm,https://job-boards.greenhouse.io/affirm/jobs/8040267003,2026-11-26,verified,required,On-call,needs_review,,,
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,FastAPI,exact_alias,SK-FASTAPI,O-M00-04;O-M04-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,asyncio,exact_alias,SK-ASYNC,O-M00-03;O-M01-01;O-M04-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,REST API,exact_alias,SK-HTTP,O-M00-02;O-M01-03;O-M04-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,SQL,needs_review,,,
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,Docker,exact_alias,SK-DOCKER,O-M06-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,Git,needs_review,,,
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,LLM API,needs_review,,,
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,structured output,needs_review,,,
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,tool calling,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,MCP,exact_alias,SK-MCP,O-M02-04,sales-assistant;support-agent
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,embeddings,exact_alias,SK-LLM-FOUNDATIONS,O-M01-05;O-M02-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,reranking,exact_alias,SK-HYBRID,O-M02-02;O-M05-04,contract-auditor;incident-analyst;text-to-sql
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,evals,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170305,ДеФакто,https://career.habr.com/vacancies/1000170305,2026-11-26,verified,required,prompt injection,exact_alias,SK-SECURITY,O-M01-02;O-M01-04;O-M02-04;O-M03-04;O-M04-04;O-M05-01;O-M07-05;O-M08-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,asyncio,exact_alias,SK-ASYNC,O-M00-03;O-M01-01;O-M04-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,typing,needs_review,,,
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,testing,needs_review,,,
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,REST,exact_alias,SK-HTTP,O-M00-02;O-M01-03;O-M04-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,gRPC,needs_review,,,
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,PostgreSQL,exact_alias,SK-POSTGRES,O-M04-03;O-M05-01;O-M05-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,Docker,exact_alias,SK-DOCKER,O-M06-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,Kubernetes,exact_alias,SK-K8S,O-M06-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,AI agents,needs_review,,,
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,LLM,needs_review,,,
+ru-habr-1000170599,AGIMA,https://career.habr.com/vacancies/1000170599,2026-11-26,verified,required,Kafka / Redis / RabbitMQ (альтернативы в тексте),exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,asyncio,exact_alias,SK-ASYNC,O-M00-03;O-M01-01;O-M04-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,FastAPI,exact_alias,SK-FASTAPI,O-M00-04;O-M04-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,PostgreSQL,exact_alias,SK-POSTGRES,O-M04-03;O-M05-01;O-M05-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,SQLAlchemy,needs_review,,,
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,Kafka,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,embeddings,exact_alias,SK-LLM-FOUNDATIONS,O-M01-05;O-M02-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,retrieval,needs_review,,,
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,reranking,exact_alias,SK-HYBRID,O-M02-02;O-M05-04,contract-auditor;incident-analyst;text-to-sql
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,unit tests,needs_review,,,
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,integration tests,needs_review,,,
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,idempotency,exact_alias,SK-IDEMPOTENCY,O-M04-03,sales-assistant;support-agent
+ru-habr-1000169407,QSOFT / TEAMLY,https://career.habr.com/vacancies/1000169407,2026-11-26,verified,required,retry/backoff,exact_alias,SK-RESILIENCE,O-M04-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,required,pandas,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,required,Excel,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,required,CSV,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,required,PDF parsing,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,required,REST API,exact_alias,SK-HTTP,O-M00-02;O-M01-03;O-M04-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,required,data matching,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,required,Git,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,preferred,OCR,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,preferred,Tesseract,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,preferred,PaddleOCR,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,preferred,PyMuPDF,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,preferred,pdfplumber,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,preferred,fuzzy matching,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,preferred,LLM API,needs_review,,,
+ru-habr-1000168741,AYROSA,https://career.habr.com/vacancies/1000168741,2026-11-26,verified,preferred,on-premise,needs_review,,,
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,required,ML,exact_alias,SK-ML,O-M02-05;O-M03-01;O-M07-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,required,NLP,needs_review,,,
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,required,LLM,needs_review,,,
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,required,production ML,needs_review,,,
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,preferred,advanced RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,preferred,LangGraph,exact_alias,SK-LANGGRAPH,O-M02-03,sales-assistant;support-agent
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,preferred,AutoGen,needs_review,,,
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,preferred,Pydantic AI,needs_review,,,
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,preferred,dialog systems,needs_review,,,
+ru-habr-1000164856,Яндекс,https://career.habr.com/vacancies/1000164856,2026-11-26,verified,preferred,legal domain,needs_review,,,
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,LLM API,needs_review,,,
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,agents,needs_review,,,
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,tool calling,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,structured output,needs_review,,,
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,evals,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,OCR,needs_review,,,
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,Git,needs_review,,,
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,Docker,exact_alias,SK-DOCKER,O-M06-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,Linux,needs_review,,,
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,REST API,exact_alias,SK-HTTP,O-M00-02;O-M01-03;O-M04-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,CI/CD,exact_alias,SK-CI,O-M06-04;O-M07-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169766,СберЗдоровье,https://career.habr.com/vacancies/1000169766,2026-11-26,verified,required,observability,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,SQL,needs_review,,,
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,ML lifecycle,exact_alias,SK-ML,O-M02-05;O-M03-01;O-M07-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,statistics,exact_alias,SK-MATH,O-M01-05;O-M02-02;O-M02-05;O-M03-03;O-M03-05;O-M05-02;O-M06-02;O-M07-01;O-M08-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,A/B testing,exact_alias,SK-MATH,O-M01-05;O-M02-02;O-M02-05;O-M03-03;O-M03-05;O-M05-02;O-M06-02;O-M07-01;O-M08-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,LLM evals,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,LLM API,needs_review,,,
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,Hugging Face,exact_alias,SK-HF,O-M07-01;O-M07-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,agents,needs_review,,,
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,HITL,exact_alias,SK-HITL,O-M02-04;O-M04-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,prompt injection,exact_alias,SK-SECURITY,O-M01-02;O-M01-04;O-M02-04;O-M03-04;O-M04-04;O-M05-01;O-M07-05;O-M08-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,MLOps,needs_review,,,
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,GPU inference,needs_review,,,
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,LoRA,exact_alias,SK-LORA,O-M07-03,recruitment-assistant;sales-assistant
+ru-habr-1000168339,Top Selection,https://career.habr.com/vacancies/1000168339,2026-11-26,verified,required,PEFT,needs_review,,,
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,SQL,needs_review,,,
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,Kubeflow,needs_review,,,
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,MLflow,needs_review,,,
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,Airflow,needs_review,,,
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,Docker,exact_alias,SK-DOCKER,O-M06-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,Kubernetes,exact_alias,SK-K8S,O-M06-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,cloud,needs_review,,,
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,Greenplum/MPP,needs_review,,,
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,Spark,needs_review,,,
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,LangChain/LlamaIndex,needs_review,,,
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,FastAPI,exact_alias,SK-FASTAPI,O-M00-04;O-M04-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,LLM frameworks,needs_review,,,
+ru-habr-1000165362,Aston,https://career.habr.com/vacancies/1000165362,2026-11-26,verified,required,GitLab CI/CD,exact_alias,SK-CI,O-M06-04;O-M07-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,pandas/Polars,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,SQL,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,ETL/ELT,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,orchestration,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,AI coding tools,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,S3,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,PostgreSQL,exact_alias,SK-POSTGRES,O-M04-03;O-M05-01;O-M05-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,Greenplum,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,Oracle,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,Superset,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,required,Streamlit,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,preferred,Airflow,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,preferred,LLM,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,preferred,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,preferred,agents,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,preferred,vector databases,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,preferred,Git,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,preferred,GitLab,needs_review,,,
+ru-habr-1000169259,Top Selection,https://career.habr.com/vacancies/1000169259,2026-11-26,verified,preferred,statistics,exact_alias,SK-MATH,O-M01-05;O-M02-02;O-M02-05;O-M03-03;O-M03-05;O-M05-02;O-M06-02;O-M07-01;O-M08-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,Django/DRF or FastAPI,exact_alias,SK-FASTAPI,O-M00-04;O-M04-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,SQL,needs_review,,,
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,PostgreSQL,exact_alias,SK-POSTGRES,O-M04-03;O-M05-01;O-M05-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,ORM,needs_review,,,
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,queues,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,caching,needs_review,,,
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,Git,needs_review,,,
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,Linux,needs_review,,,
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,Docker,exact_alias,SK-DOCKER,O-M06-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,CI/CD,exact_alias,SK-CI,O-M06-04;O-M07-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,system design,exact_alias,SK-SYSTEM-DESIGN,O-M05-05;O-M08-01;O-M08-03;O-M08-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,required,code review,needs_review,,,
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,preferred,Kafka,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,preferred,RabbitMQ,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,preferred,Celery,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,preferred,Redis,needs_review,,,
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,preferred,Kubernetes,exact_alias,SK-K8S,O-M06-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,preferred,HighLoad,needs_review,,,
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,preferred,LLM,needs_review,,,
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,preferred,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000168764,Strikt,https://career.habr.com/vacancies/1000168764,2026-11-26,verified,preferred,Tech Lead,needs_review,,,
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,ML,exact_alias,SK-ML,O-M02-05;O-M03-01;O-M07-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,NLP,needs_review,,,
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,transformers,exact_alias,SK-LLM-FOUNDATIONS,O-M01-05;O-M02-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,attention,exact_alias,SK-LLM-FOUNDATIONS,O-M01-05;O-M02-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,tokenization,exact_alias,SK-LLM-FOUNDATIONS,O-M01-05;O-M02-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,ONNX/Triton,needs_review,,,
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,LangChain/LangGraph,exact_alias,SK-LANGGRAPH,O-M02-03,sales-assistant;support-agent
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,testing,needs_review,,,
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,CI/CD,exact_alias,SK-CI,O-M06-04;O-M07-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,ClearML/MLflow,needs_review,,,
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,required,model monitoring,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,preferred,PEFT,needs_review,,,
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,preferred,Qdrant,exact_alias,SK-QDRANT,O-M05-03;O-M05-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,preferred,Pinecone,needs_review,,,
+ru-habr-1000167593,Фарпост,https://career.habr.com/vacancies/1000167593,2026-11-26,verified,preferred,hybrid search,exact_alias,SK-HYBRID,O-M02-02;O-M05-04,contract-auditor;incident-analyst;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,asyncio,exact_alias,SK-ASYNC,O-M00-03;O-M01-01;O-M04-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,FastAPI,exact_alias,SK-FASTAPI,O-M00-04;O-M04-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,Pydantic,exact_alias,SK-PYDANTIC,O-M00-04;O-M01-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,SSE,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,LLM API,needs_review,,,
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,tool calling,exact_alias,SK-STREAMING,O-M01-04,sales-assistant;support-agent
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,structured output,needs_review,,,
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,rate limits,exact_alias,SK-RESILIENCE,O-M04-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,retry/backoff,exact_alias,SK-RESILIENCE,O-M04-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,PostgreSQL,exact_alias,SK-POSTGRES,O-M04-03;O-M05-01;O-M05-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,Redis,needs_review,,,
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,React,needs_review,,,
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,TypeScript,needs_review,,,
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,required,Claude Code,needs_review,,,
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,preferred,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,preferred,vector databases,needs_review,,,
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,preferred,Celery/arq/Dramatiq,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,preferred,Langfuse,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,preferred,OpenTelemetry,exact_alias,SK-OBSERVABILITY,O-M03-04;O-M04-05;O-M06-05;O-M08-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,preferred,Docker,exact_alias,SK-DOCKER,O-M06-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,preferred,pytest,needs_review,,,
+ru-habr-1000169682,SR / Silentroom,https://career.habr.com/vacancies/1000169682,2026-11-26,verified,preferred,evals,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170429,СОВ ГРУПП / SOVE,https://career.habr.com/vacancies/1000170429,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170429,СОВ ГРУПП / SOVE,https://career.habr.com/vacancies/1000170429,2026-11-26,verified,required,API,needs_review,,,
+ru-habr-1000170429,СОВ ГРУПП / SOVE,https://career.habr.com/vacancies/1000170429,2026-11-26,verified,required,task queues,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+ru-habr-1000170429,СОВ ГРУПП / SOVE,https://career.habr.com/vacancies/1000170429,2026-11-26,verified,required,LLM,needs_review,,,
+ru-habr-1000170429,СОВ ГРУПП / SOVE,https://career.habr.com/vacancies/1000170429,2026-11-26,verified,required,structured output,needs_review,,,
+ru-habr-1000170429,СОВ ГРУПП / SOVE,https://career.habr.com/vacancies/1000170429,2026-11-26,verified,required,agents,needs_review,,,
+ru-habr-1000170429,СОВ ГРУПП / SOVE,https://career.habr.com/vacancies/1000170429,2026-11-26,verified,required,RAG,exact_alias,SK-RAG,O-M02-01;O-M03-02;O-M05-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000170429,СОВ ГРУПП / SOVE,https://career.habr.com/vacancies/1000170429,2026-11-26,verified,required,vision,needs_review,,,
+ru-habr-1000170429,СОВ ГРУПП / SOVE,https://career.habr.com/vacancies/1000170429,2026-11-26,verified,required,diffusion models,needs_review,,,
+ru-habr-1000170429,СОВ ГРУПП / SOVE,https://career.habr.com/vacancies/1000170429,2026-11-26,verified,required,ComfyUI,needs_review,,,
+ru-habr-1000170429,СОВ ГРУПП / SOVE,https://career.habr.com/vacancies/1000170429,2026-11-26,verified,required,evals,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,SQL,needs_review,,,
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,ML fundamentals,exact_alias,SK-ML,O-M02-05;O-M03-01;O-M07-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,statistics,exact_alias,SK-MATH,O-M01-05;O-M02-02;O-M02-05;O-M03-03;O-M03-05;O-M05-02;O-M06-02;O-M07-01;O-M08-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,A/B testing,exact_alias,SK-MATH,O-M01-05;O-M02-02;O-M02-05;O-M03-03;O-M03-05;O-M05-02;O-M06-02;O-M07-01;O-M08-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,LLM evals,exact_alias,SK-EVALS,O-M03-02;O-M06-02;O-M07-05;O-M08-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,LLM API,needs_review,,,
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,Hugging Face,exact_alias,SK-HF,O-M07-01;O-M07-03,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,LoRA/PEFT,exact_alias,SK-LORA,O-M07-03,recruitment-assistant;sales-assistant
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,agents,needs_review,,,
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,HITL,exact_alias,SK-HITL,O-M02-04;O-M04-04,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,GPU inference,needs_review,,,
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,required,MLOps,needs_review,,,
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,preferred,retail,needs_review,,,
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,preferred,e-commerce,needs_review,,,
+ru-habr-1000169302,Джетлин,https://career.habr.com/vacancies/1000169302,2026-11-26,verified,preferred,highload,needs_review,,,
+ru-hh-139691432,USETECH,https://hh.ru/vacancy/139691432,2026-11-26,partial,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-hh-139691432,USETECH,https://hh.ru/vacancy/139691432,2026-11-26,partial,required,asyncio,exact_alias,SK-ASYNC,O-M00-03;O-M01-01;O-M04-02,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-hh-139691432,USETECH,https://hh.ru/vacancy/139691432,2026-11-26,partial,required,FastAPI,exact_alias,SK-FASTAPI,O-M00-04;O-M04-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-hh-139691432,USETECH,https://hh.ru/vacancy/139691432,2026-11-26,partial,required,message brokers,exact_alias,SK-QUEUES,O-M04-02,incident-analyst;sales-assistant
+ru-hh-139112128,WB—Tech,https://hh.ru/vacancy/139112128,2026-11-26,partial,required,Python,exact_alias,SK-PYTHON,O-M00-01,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-hh-139112128,WB—Tech,https://hh.ru/vacancy/139112128,2026-11-26,partial,required,Django,needs_review,,,
+ru-hh-139112128,WB—Tech,https://hh.ru/vacancy/139112128,2026-11-26,partial,required,FastAPI,exact_alias,SK-FASTAPI,O-M00-04;O-M04-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-hh-139112128,WB—Tech,https://hh.ru/vacancy/139112128,2026-11-26,partial,required,PostgreSQL,exact_alias,SK-POSTGRES,O-M04-03;O-M05-01;O-M05-05,contract-auditor;incident-analyst;recruitment-assistant;sales-assistant;support-agent;text-to-sql
+ru-hh-139112128,WB—Tech,https://hh.ru/vacancy/139112128,2026-11-26,partial,required,Redis,needs_review,,,

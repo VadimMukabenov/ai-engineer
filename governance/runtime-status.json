@@ -1,0 +1,15 @@
+{
+  "checked_on": "2026-11-27",
+  "repository": "https://github.com/VadimMukabenov/ai-engineer",
+  "requested_visibility": "public",
+  "initial_learner_attempts": 0,
+  "initial_mastered_outcomes": 0,
+  "paid_calls_performed": false,
+  "local_sdk_smoke": "passed",
+  "github_push": "pending",
+  "github_ci": "pending",
+  "code_restore": "pending",
+  "beads_restore": "local round-trip passed; remote snapshot pending",
+  "server_protection": "not yet inspected",
+  "independent_trust_boundary": false
+}

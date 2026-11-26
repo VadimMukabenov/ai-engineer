@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "plan_version": "1.0.0",
+  "approval_source": "User approved reviewed foundation; baseline created 2026-11-27",
+  "files": {
+    "governance/plan.json": "b528fd6c894fb10cd62043c2718e5a022c332bab3ea31bee0628500a483aee46",
+    "docs/approved-requirements.md": "c95c029fbee9e86a4b2c6dd90217dcb5dcc30ee5be52d7841f60ed56d5853a1f",
+    "docs/teaching-method.md": "57b758fff185b478946b5d902daafd96fdd221ce9a78100bc1be307051137b89",
+    "projects/learning-hub/course/catalog.json": "91c44d17a3db26d05e66ea16060b330833c03e09392d325b146020a3ef9aae23",
+    "projects/contract-auditor/passport.json": "fac5188dae1f93e0e3790540786a7929544cb3be0df3a588067d0607f45dd733",
+    "projects/incident-analyst/passport.json": "ec56f58283117f04b76b181713677f3b2a9036c858d96e39a865140fe7078d33",
+    "projects/recruitment-assistant/passport.json": "7cfe0f4b30f56f505535d01dc35ae9eddc216074cbacc4ad96448a8dcc4f530e",
+    "projects/sales-assistant/passport.json": "eedf7d04c72001d8bd811dd897ede3b6d605475a48e4a125a60faa5b6fa8684a",
+    "projects/support-agent/passport.json": "8b0e5bc6297a9158e5a81f96d9bb66ff4a660c4fcda0c21187c342c38417ffbb",
+    "projects/text-to-sql/passport.json": "23260e91444b453d32ce6a87684f8a7aa2fb7b9c7c5d514004a6e5d4426ec3c7",
+    "projects/learning-hub/course/versions/1.0.0.json": "91c44d17a3db26d05e66ea16060b330833c03e09392d325b146020a3ef9aae23",
+    "projects/learning-hub/course/materials/D00.md": "265815bb4484419c59a41a38c1acab4bce93afce4b744029a358b7a69f5500d0",
+    "projects/learning-hub/course/materials/L00.md": "f297ec86189e919e03cc231a7e2e96c9896051659d7ea9c6a510a1375fcb8a7b",
+    "labs/direct-llm-api/README.md": "85e6e9a9e4a265467d9ea513120f01517a8501b48ff500030db192ffcfa913d7"
+  }
+}

@@ -1,5 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.env
+.env.*
+!.env.example
+.superpowers/
+runtime/
+output/
+*.log
+node_modules/
+.DS_Store
 
-# Beads / Dolt files (added by bd init)
-.dolt/
-*.db
-.beads-credential-key
+# Raw Beads auto-export contains private author metadata; publish reviewed snapshots only.
+.beads/issues.jsonl

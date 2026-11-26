@@ -1,0 +1,1085 @@
+{
+  "batch_id": "global",
+  "checked_on": "2026-11-26",
+  "limitations": [
+    "Целевая удобная выборка по поиску и публичным ATS, не случайная и не оценка долей всего рынка. 20 отдельных вакансий/нанимающих организаций; географически неподходящие записи сохранены как наблюдения спроса.",
+    "Целевые страны работы и оформления: РФ (приоритет) и Казахстан; фактическое резидентство, право работы, счета и возможность договора не подтверждены. Worldwide/Europe/часовой пояс не подтверждают договор с РФ или Казахстаном.",
+    "Активность confirmed означает, что текущий публичный ATS включал запись или первичная страница показывала форму Apply; это не гарантия незакрытой позиции у рекрутера.",
+    "Поисковые сниппеты ElevenLabs и Paires оказались недоступны по прямым ATS URL (404), Zapier отсутствовал в текущем ATS и имел июльский deadline; в 20 наблюдений они не включены. Pfizer перенаправлял на общий поиск и исключён.",
+    "Выплаты на руки не установлены ни для одной записи. Годовые диапазоны не преобразованы в net, бонусы и equity не прибавлены. basis unknown, кроме явно названного annual gross fixed pay G-P.",
+    "Дата publishedAt Ashby отражена как posted_on; для других источников неизвестные даты оставлены null. Полная история изменений и архив исходных страниц в этом batch не сохранялись.",
+    "Навыки извлечены из первичных текстов; перечни с or/similar означают допустимые альтернативы, а не обязательность каждого названного продукта. Частота навыков в такой выборке не доказывает самый востребованный стек.",
+    "Роли Arize (developer advocacy) и Fundamental (модельная оптимизация) смежные, отмечены в notes; Maisa содержит конфликт On-Site/Remote и не считается подтверждённой полностью удалённой."
+  ],
+  "vacancies": [
+    {
+      "id": "global-textyess-d69a6429",
+      "company": "TextYess",
+      "title": "AI Engineer",
+      "url": "https://jobs.ashbyhq.com/textyess/d69a6429-67e9-4168-9970-75d4891df62a",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": "2026-08-19",
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "Europe; Remote",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "2+ years shipping software professionally, including at least one LLM feature real users touched.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python",
+        "Backend engineering",
+        "RAG",
+        "Embeddings",
+        "Vector search",
+        "Chunking",
+        "Reranking",
+        "LLM tracing"
+      ],
+      "preferred_skills": [
+        "Search infrastructure",
+        "Fine-tuning",
+        "Graph search",
+        "E-commerce"
+      ],
+      "requirements_summary": [
+        "Нужна хотя бы одна LLM-функция с реальными пользователями; опыт выходных проектов сам по себе недостаточен.",
+        "Диагностировать плохие ответы по трассам и измерять качество, задержку и стоимость."
+      ],
+      "evidence_quote": "Strong Python and backend fundamentals",
+      "notes": [
+        "География Europe; договор из РФ/Казахстана не подтверждён.",
+        "Проверено по текущему публичному Ashby posting-api/job-board/textyess; isListed=true."
+      ]
+    },
+    {
+      "id": "global-titan-ai-297cf9a9",
+      "company": "Titan AI",
+      "title": "Applied AI Engineer",
+      "url": "https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": "2026-05-28",
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "United States; Remote (US)",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": "USD",
+        "min": 200000,
+        "max": 300000,
+        "period": "year",
+        "basis": "unknown",
+        "kind": "base"
+      },
+      "experience_text": "5+ years software engineering; 2+ years production agentic AI or RAG.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python",
+        "Async Python",
+        "REST APIs",
+        "Microservices",
+        "Agent orchestration",
+        "RAG",
+        "Hybrid retrieval",
+        "Tool calling",
+        "Structured outputs",
+        "LLM evaluation",
+        "LLM observability"
+      ],
+      "preferred_skills": [
+        "Azure",
+        "Banking",
+        "Graph databases",
+        "MCP",
+        "Multi-agent systems",
+        "Multi-tenant SaaS"
+      ],
+      "requirements_summary": [
+        "Разрабатывать агентные процессы, retrieval и интеграции моделей для банков.",
+        "Требуются регрессионные проверки поведения и опыт запуска production AI."
+      ],
+      "evidence_quote": "5+ years software engineering; 2+ years building and shipping production agentic AI or RAG systems",
+      "notes": [
+        "US-only; для работы из РФ/Казахстана исключается без другого явного разрешения работодателя.",
+        "Occasional travel to client sites and team offsites.",
+        "ATS называет диапазон Estimate Base Salary; equity отдельно.",
+        "Текущий публичный Ashby posting-api/job-board/titan-ai; isListed=true."
+      ]
+    },
+    {
+      "id": "global-bio-80145424",
+      "company": "BIO",
+      "title": "AI Engineer",
+      "url": "https://jobs.ashbyhq.com/bio/80145424-4809-46b2-99b9-8aae501be616",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": "2026-01-17",
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "Remote",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Число лет не указано; требуется практический опыт.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python or TypeScript",
+        "API design",
+        "LLM applications",
+        "Agent frameworks",
+        "Vector databases",
+        "Cloud",
+        "Containers",
+        "CI/CD",
+        "Observability"
+      ],
+      "preferred_skills": [
+        "Fine-tuning",
+        "Reinforcement learning",
+        "AI benchmarks",
+        "Knowledge systems",
+        "Agent safety",
+        "Scientific computing"
+      ],
+      "requirements_summary": [
+        "Поставлять агенты с планированием, инструментами, памятью и управлением контекстом.",
+        "Строить проверки, guardrails, безопасное исполнение и прослеживаемость источников."
+      ],
+      "evidence_quote": "Experience building production software in Python and/or TypeScript",
+      "notes": [
+        "На странице лишь Remote; перечень допустимых стран не указан, РФ/Казахстан не подтверждены.",
+        "Python либо TypeScript принимаются; это не доказательство Python-only роли.",
+        "Текущий публичный Ashby posting-api/job-board/bio; isListed=true."
+      ]
+    },
+    {
+      "id": "global-fundamental-9ce70592",
+      "company": "Fundamental",
+      "title": "Applied AI Engineer",
+      "url": "https://jobs.ashbyhq.com/fundamental/9ce70592-8637-461f-b47c-6a1b47561461",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": "2026-05-20",
+      "active": "confirmed",
+      "track": "ml_heavy",
+      "remote": "fully_remote",
+      "location_text": "Europe; Israel (remote)",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Число лет не указано; требуется практический опыт.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python",
+        "Rust",
+        "Python-Rust extensions",
+        "Production ML",
+        "Neural networks",
+        "Profiling",
+        "Performance optimization"
+      ],
+      "preferred_skills": [
+        "Tabular ML",
+        "C++",
+        "PyTorch internals",
+        "Numerical computing",
+        "Distributed training",
+        "Rust async"
+      ],
+      "requirements_summary": [
+        "Оптимизировать обучение и inference большой табличной нейросети, переносить узкие места в Rust.",
+        "Нужны production ML, профилирование и понимание нейросетей."
+      ],
+      "evidence_quote": "Strong software engineering fundamentals with expert-level Python and Rust",
+      "notes": [
+        "Смежная ML-heavy роль, не типичная прикладная LLM-вакансия.",
+        "Europe/Israel; договор из РФ/Казахстана не подтверждён.",
+        "Текущий публичный Ashby posting-api/job-board/fundamental; isListed=true."
+      ]
+    },
+    {
+      "id": "global-splitmetrics-ee454d6e",
+      "company": "SplitMetrics",
+      "title": "Senior Backend Engineer (Python) - AI",
+      "url": "https://jobs.ashbyhq.com/splitmetrics/ee454d6e-4165-444b-bff3-76e83c680d20",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": "2026-11-06",
+      "active": "confirmed",
+      "track": "ai_backend",
+      "remote": "fully_remote",
+      "location_text": "Remote - Europe Time Zones; Portugal; Spain",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "5+ years Python backend experience.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Object storage",
+        "Async task queues",
+        "Microservices",
+        "MCP",
+        "Agentic AI",
+        "Observability",
+        "AWS",
+        "Docker",
+        "Kubernetes"
+      ],
+      "preferred_skills": [
+        "LangChain",
+        "Ad technology",
+        "OLAP databases"
+      ],
+      "requirements_summary": [
+        "Строить Python API, фоновые задания, ETL и внешние MCP-серверы.",
+        "Требуется практика retries, long-running jobs, отказов и интеграций с LLM."
+      ],
+      "evidence_quote": "5+ years Python backend experience",
+      "notes": [
+        "Явно все роли remote, однако отдельные позиции имеют требования к стране; TA уточняет после начала процесса.",
+        "Europe Time Zones не подтверждают договор из РФ/Казахстана.",
+        "Текущий публичный Ashby posting-api/job-board/splitmetrics; isListed=true."
+      ]
+    },
+    {
+      "id": "global-mimica-41660ce4",
+      "company": "Mimica",
+      "title": "Senior/Lead Python Engineer",
+      "url": "https://jobs.ashbyhq.com/mimica/41660ce4-c2b6-4632-9015-ab0f64bc8021",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": "2026-11-19",
+      "active": "confirmed",
+      "track": "ai_backend",
+      "remote": "fully_remote",
+      "location_text": "Remote Anywhere; UK, Europe, Americas within UTC-7 to UTC+3",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "8+ years Software Engineer; previous Senior/Lead responsibilities.",
+      "english_text": "Fluency in English; explaining abstract ideas, complex concepts and trade-offs.",
+      "required_skills": [
+        "Python",
+        "Backend engineering",
+        "Async programming",
+        "Testing",
+        "Observability",
+        "Tracing",
+        "Performance optimization",
+        "Memory management",
+        "System design",
+        "Mentoring"
+      ],
+      "preferred_skills": [
+        "ML deployment",
+        "Agent runtime",
+        "Scale-up experience"
+      ],
+      "requirements_summary": [
+        "Строить backend-компоненты вокруг ML-моделей и AI-функций, отвечать за полный цикл и инциденты.",
+        "Требуется глубокая инженерная база Python и сложных архитектур."
+      ],
+      "evidence_quote": "Fluency in English and ability to effectively communicate abstract ideas, complex concepts and trade-offs.",
+      "notes": [
+        "ATS ярлык Remote Anywhere сужен текстом до UK/Europe/Americas, UTC-7..UTC+3.",
+        "РФ и договор не подтверждены; Казахстан не назван, его часовой пояс не входит в указанный интервал.",
+        "Текущий публичный Ashby posting-api/job-board/mimica; isListed=true."
+      ]
+    },
+    {
+      "id": "global-future-4745515005",
+      "company": "Future",
+      "title": "Applied AI Engineer",
+      "url": "https://job-boards.greenhouse.io/future/jobs/4745515005",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "Remote; continental US",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": "USD",
+        "min": 215000,
+        "max": 250000,
+        "period": "year",
+        "basis": "unknown",
+        "kind": "base"
+      },
+      "experience_text": "Число лет не указано; требуется практический опыт.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python",
+        "Async Python",
+        "HTTP APIs",
+        "Streaming",
+        "Agent frameworks",
+        "Tool calling",
+        "Structured outputs",
+        "LLM evaluation",
+        "Pydantic",
+        "JSON Schema"
+      ],
+      "preferred_skills": [
+        "AWS",
+        "Langfuse",
+        "OpenTelemetry",
+        "Datadog",
+        "LLM-as-judge",
+        "Terraform",
+        "CDK"
+      ],
+      "requirements_summary": [
+        "Производственные агенты, параллельные API и streaming, quality harness и мониторинг.",
+        "Разбираться с отказами от tool call до инфраструктуры."
+      ],
+      "evidence_quote": "Strong Python skills: you've built and deployed services on large production systems.",
+      "notes": [
+        "Явное ограничение continental US, форма спрашивает legal authorization и sponsorship.",
+        "Для РФ/Казахстана не подходит по заявленной географии.",
+        "Base salary в год + equity отдельно; net не установлен."
+      ]
+    },
+    {
+      "id": "global-infuse-4735189005",
+      "company": "INFUSE",
+      "title": "Senior AI Engineer (Remote, Contract)",
+      "url": "https://job-boards.greenhouse.io/infuse/jobs/4735189005",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "Ukraine; fully remote; 14:00–23:00 EEST (Kyiv time)",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "5+ years software engineering; production LLM agent/workflow experience.",
+      "english_text": "Clear communication with technical and non-technical stakeholders, in English.",
+      "required_skills": [
+        "Python",
+        "SQL",
+        "TypeScript/Node.js",
+        "Production LLM agents",
+        "Agent SDKs",
+        "MCP",
+        "RAG",
+        "AWS Bedrock",
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "Testing",
+        "Observability",
+        "AI coding tools"
+      ],
+      "preferred_skills": [
+        "Langfuse",
+        "LiteLLM",
+        "OpenTelemetry",
+        "FinOps",
+        "Kafka",
+        "Temporal",
+        "B2B data"
+      ],
+      "requirements_summary": [
+        "Агенты и MCP над реальными данными, качество/cost/latency, model routing и provider failover.",
+        "Тесты и evals в CI, контейнеры, мониторинг и откаты."
+      ],
+      "evidence_quote": "Strong Python and SQL. Comfortable in TypeScript/Node.js.",
+      "notes": [
+        "Вакансия опубликована для Ukraine, работа из РФ/Казахстана не подтверждена.",
+        "Contract; указано расписание Kyiv.",
+        "Проверен текущий Greenhouse API и полный текст объявления."
+      ]
+    },
+    {
+      "id": "global-implicit-8039713",
+      "company": "Implicit",
+      "title": "AI Engineer (US-Based / Part-Time)",
+      "url": "https://job-boards.greenhouse.io/implicit/jobs/8039713",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "Remote / US-Based; part-time",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "3+ years AI, ML or NLP applications via industry, open-source or research.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python",
+        "LLMs",
+        "RAG",
+        "Embeddings",
+        "Semantic search",
+        "NLP",
+        "ML fundamentals",
+        "Deep learning",
+        "PyTorch or TensorFlow",
+        "APIs",
+        "Vector databases"
+      ],
+      "preferred_skills": [
+        "Knowledge management",
+        "Agents",
+        "Tool calling",
+        "Knowledge graphs",
+        "OCR",
+        "Multimodal AI",
+        "MLOps",
+        "LLM evaluation"
+      ],
+      "requirements_summary": [
+        "Пайплайны ingestion/extraction/retrieval и production AI для технических знаний.",
+        "Требуется профильная степень либо эквивалентный практический опыт."
+      ],
+      "evidence_quote": "Remote work within the United States.",
+      "notes": [
+        "US-only и part-time: наблюдение требований, не подтверждённый вариант для РФ/Казахстана.",
+        "Проверен текущий публичный Greenhouse API."
+      ]
+    },
+    {
+      "id": "global-gp-8034410003",
+      "company": "G-P / Globalization Partners",
+      "title": "AI Engineer I",
+      "url": "https://job-boards.greenhouse.io/globalizationpartners/jobs/8034410003",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "ai_backend",
+      "remote": "unknown",
+      "location_text": "Ireland (Remote-First)",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": "EUR",
+        "min": 56000,
+        "max": 70000,
+        "period": "year",
+        "basis": "gross",
+        "kind": "base"
+      },
+      "experience_text": "2+ years Python and SQL in production.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python",
+        "SQL",
+        "Cloud data platform",
+        "LLM applications",
+        "Tool use",
+        "LLM evaluation",
+        "REST APIs",
+        "Git"
+      ],
+      "preferred_skills": [
+        "AWS",
+        "Salesforce",
+        "HubSpot",
+        "Databricks",
+        "Snowflake"
+      ],
+      "requirements_summary": [
+        "Data pipelines и AI-инструменты для GTM; integrations должны иметь тесты и мониторинг."
+      ],
+      "evidence_quote": "2+ years of Python and SQL in production",
+      "notes": [
+        "Ireland Remote-First; не подтверждает работу из РФ/Казахстана.",
+        "Источник явно annual gross fixed pay; variable compensation отдельно.",
+        "Общие заявления G-P о глобальном найме не расширяют географию этой вакансии.",
+        "Remote-First не гарантирует отсутствие обязательных посещений; строго fully remote не подтверждено."
+      ]
+    },
+    {
+      "id": "global-coderio-48ad8ddf",
+      "company": "Coderio",
+      "title": "Senior AI Engineer (Python)",
+      "url": "https://jobs.lever.co/coderio/48ad8ddf-5774-4f13-b144-169d02af6cb2",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "ai_backend",
+      "remote": "fully_remote",
+      "location_text": "Argentina / Colombia / Peru / Uruguay / Brazil; Contract | Remote",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "5–7 years professional software engineering; Bachelor degree in listed fields.",
+      "english_text": "Advanced or bilingual English (C1+); direct communication with business stakeholders.",
+      "required_skills": [
+        "Python",
+        "Backend services",
+        "REST APIs",
+        "Streaming APIs",
+        "LLM applications",
+        "Tool calling",
+        "RAG",
+        "Embeddings",
+        "Vector search",
+        "SQL",
+        "Document extraction",
+        "Cloud",
+        "Containers",
+        "CI/CD",
+        "Infrastructure as code"
+      ],
+      "preferred_skills": [
+        "MCP",
+        "Snowflake",
+        "AWS",
+        "Financial services",
+        "LLM observability",
+        "TypeScript/Node.js"
+      ],
+      "requirements_summary": [
+        "Backend/MCP и document-processing pipelines для hedge fund, data entitlements и auditability.",
+        "Указана степень CS/Engineering/Math или смежная."
+      ],
+      "evidence_quote": "Advanced or bilingual English (C1+).",
+      "notes": [
+        "ATS перечисляет LATAM; фраза from anywhere не снимает конкретную географию.",
+        "Договор из РФ/Казахстана не подтверждён.",
+        "Полный текст проверен через публичный Lever API."
+      ]
+    },
+    {
+      "id": "global-appsilon-7750183",
+      "company": "Appsilon",
+      "title": "Applied AI Engineer",
+      "url": "https://appsilon-1739358905.teamtailor.com/jobs/7750183-applied-ai-engineer",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "Worldwide; Fully Remote",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": "PLN",
+        "min": 17000,
+        "max": 22000,
+        "period": "month",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Число лет не указано; требуется практический опыт.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python",
+        "Production AI agents",
+        "Agent orchestration",
+        "Prompt engineering",
+        "RAG",
+        "Tool calling",
+        "LLM APIs",
+        "LLM evaluation",
+        "Tracing"
+      ],
+      "preferred_skills": [
+        "Cloud",
+        "Docker",
+        "Kubernetes",
+        "Vector databases",
+        "Embeddings",
+        "LLMOps",
+        "Classical ML",
+        "Scientific data",
+        "Responsible AI"
+      ],
+      "requirements_summary": [
+        "Production агенты и GenAI для pharma, интеграции с API и enterprise-системами.",
+        "Требуется отладка поведения агентов и structured tests; технический отбор включает Codility."
+      ],
+      "evidence_quote": "Strong programming skills in Python with experience building robust, maintainable backend services.",
+      "notes": [
+        "Явно Worldwide и 100% remote; право договора/платежей РФ или Казахстан не подтверждено.",
+        "Компенсация B2B; источник не уточняет gross/net/VAT.",
+        "Требуется действительный паспорт для граждан вне Польши."
+      ]
+    },
+    {
+      "id": "global-maisa-19940",
+      "company": "Maisa AI",
+      "title": "Applied AI Engineer",
+      "url": "https://careers.kula.ai/maisa/19940-applied-ai-engineer",
+      "source_type": "employer_ats",
+      "verification": "partial",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "unknown",
+      "location_text": "Europe (Remote); body Fully Remote; ATS header Workplace: On-Site",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Число лет не указано; требуется практический опыт.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python",
+        "Production AI",
+        "LLMs",
+        "LLM evaluation",
+        "Prompt optimization",
+        "Context engineering",
+        "ML evaluation",
+        "Performance optimization"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Реализовывать, оценивать и поставлять agentic workflows, создавать evaluation datasets/frameworks."
+      ],
+      "evidence_quote": "Strong background as SWE with proficiency in Python for production system development and code quality frameworks/practices.",
+      "notes": [
+        "Конфликт ATS On-Site и текста Fully Remote; удалёнку нужно подтвердить.",
+        "Europe, конкретное разрешение договора из РФ/Казахстана не установлено.",
+        "Полный технический текст доступен; partial относится к противоречию формата работы."
+      ]
+    },
+    {
+      "id": "global-cloudlab-senior-ai-engineer",
+      "company": "CloudLab Technologies",
+      "title": "Senior AI Engineer",
+      "url": "https://www.cloudlabweb.com/careers/senior-ai-engineer",
+      "source_type": "employer",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "London, UK; Remote; UK/EU hours",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "5+ years shipping production software.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python",
+        "TypeScript",
+        "LLMs",
+        "RAG",
+        "Function calling",
+        "Agent orchestration",
+        "Vector databases",
+        "Streaming inference"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Архитектура и доставка enterprise LLM-систем; ответственность за evaluation, cost, latency и reliability."
+      ],
+      "evidence_quote": "5+ years shipping production software",
+      "notes": [
+        "Remote-first, UK/EU hours; список разрешённых стран/договор из РФ/Казахстана не указан.",
+        "Top-of-market не числовой диапазон; £3000 — learning budget, не зарплата."
+      ]
+    },
+    {
+      "id": "global-distantjob-8941192002",
+      "company": "DistantJob (client undisclosed)",
+      "title": "Applied AI Engineer",
+      "url": "https://job-boards.greenhouse.io/distantjob/jobs/8941192002",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "Remote; fully remote, long-term",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Число лет не указано; требуется практический опыт.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python or TypeScript",
+        "Prompt engineering",
+        "Context engineering",
+        "JSON Schema",
+        "Tool calling",
+        "RAG",
+        "Hybrid search",
+        "Reranking",
+        "Agent orchestration",
+        "State machines",
+        "LLM evaluation",
+        "LLM observability",
+        "LLM security",
+        "Testing",
+        "Git",
+        "CI"
+      ],
+      "preferred_skills": [
+        "Learning products",
+        "Assessment",
+        "Regulated content"
+      ],
+      "requirements_summary": [
+        "Разрабатывать learner-facing agents, разделять симуляцию, оценивание и обратную связь.",
+        "Golden datasets, human-calibrated LLM judges, permission scopes, prompt-injection и data-leakage защита."
+      ],
+      "evidence_quote": "Python or TypeScript, including API integrations and automated testing",
+      "notes": [
+        "Рекрутинговая компания публикует для неназванного клиента; не подтверждены страны найма и договор из РФ/Казахстана.",
+        "Python и TypeScript — альтернативы; не требуется одновременно оба."
+      ]
+    },
+    {
+      "id": "global-arize-6128122004",
+      "company": "Arize AI",
+      "title": "Applied AI Engineer",
+      "url": "https://job-boards.greenhouse.io/arizeai/jobs/6128122004",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "Remote (San Francisco); SF Bay metro required",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": "USD",
+        "min": 100000,
+        "max": 175000,
+        "period": "year",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Число лет не указано; требуется практический опыт.",
+      "english_text": "Excellent written and verbal communication; explicit English level not stated.",
+      "required_skills": [
+        "Python",
+        "Generative AI",
+        "Agent frameworks",
+        "Vector databases",
+        "LLM evaluation",
+        "Technical writing",
+        "Developer community"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Создавать код/примеры, материалы и выступления для роста developer community."
+      ],
+      "evidence_quote": "requires candidates to be based in the San Francisco Bay metro area",
+      "notes": [
+        "Смежная developer-advocacy роль вне core engineering; не типичная production backend-вакансия.",
+        "SF Bay residence и вечерние meetups/events; не подходит для работы из РФ/Казахстана по указанной географии.",
+        "Annual salary плюс equity; net неизвестен."
+      ]
+    },
+    {
+      "id": "global-leiolai-applied-ai",
+      "company": "Leiolai / Entlegnant",
+      "title": "Applied AI Engineer",
+      "url": "https://www.leiolai.com/careers/applied-ai-engineer/",
+      "source_type": "employer",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "Remote, United States; Full-time",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Число лет не указано; требуется практический опыт.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python",
+        "Production software",
+        "AI evaluation",
+        "Debugging",
+        "Architecture"
+      ],
+      "preferred_skills": [
+        "Integrations"
+      ],
+      "requirements_summary": [
+        "Переводить продуктовые задачи в прототипы, evals и production код, воспроизводить сбои."
+      ],
+      "evidence_quote": "Experience delivering machine learning or software systems from prototype to production.",
+      "notes": [
+        "United States remote; договор/работа из РФ/Казахстана не подтверждены.",
+        "Указанное на странице юридическое лицо Entlegnant; независимая проверка работодателя не проводилась."
+      ]
+    },
+    {
+      "id": "global-kake-56a4536c4a20",
+      "company": "Kake",
+      "title": "Senior AI/LLM Engineer (Python)",
+      "url": "https://kake.co/jobs/senior-ai-llm-engineer-python-56a4536c4a20",
+      "source_type": "employer",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "Remote; global community; 5–6h daily PST overlap",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Число лет не указано; требуется практический опыт.",
+      "english_text": "Excellent written and verbal communication skills in English.",
+      "required_skills": [
+        "Python",
+        "FastAPI or similar",
+        "LLM APIs",
+        "LangChain or LlamaIndex",
+        "RAG",
+        "Embeddings",
+        "Vector databases",
+        "Docker",
+        "PostgreSQL or Redis",
+        "Integration testing",
+        "LLM evaluation"
+      ],
+      "preferred_skills": [
+        "Fine-tuning",
+        "Open-source LLMs",
+        "Agentic workflows",
+        "Distributed systems",
+        "Kafka",
+        "ML fundamentals"
+      ],
+      "requirements_summary": [
+        "Строить Python LLM-продукты, backend API, retrieval и систематические проверки качества/безопасности."
+      ],
+      "evidence_quote": "US Timezone Overlap: 5h–6h daily PST",
+      "notes": [
+        "Глобальное сообщество в 55+ странах не подтверждает конкретную возможность договора с РФ/Казахстаном.",
+        "Требуется 5–6 часов пересечения с PST; существенное ограничение расписания.",
+        "Pay in USD, числовой диапазон не указан."
+      ]
+    },
+    {
+      "id": "global-provectus-0bf1decc",
+      "company": "Provectus",
+      "title": "Senior AI/ML Engineer (GenAI, AWS)",
+      "url": "https://jobs.lever.co/provectus/0bf1decc-002c-4b0a-b97b-6407d2930fff",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "applied_ai",
+      "remote": "fully_remote",
+      "location_text": "Spain / Serbia / Poland / Ukraine / Portugal / North Macedonia / Bosnia and Herzegovina / Romania; Remote",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "5+ years software or ML engineering, accountable for production systems.",
+      "english_text": "B2+ English; distributed multicultural collaboration.",
+      "required_skills": [
+        "Python or TypeScript",
+        "AI/ML fundamentals",
+        "Production LLM applications",
+        "Agent orchestration",
+        "RAG",
+        "AWS",
+        "Containers",
+        "Infrastructure as code",
+        "CI/CD",
+        "LLM evaluation",
+        "Agent monitoring",
+        "Claude Code",
+        "MCP"
+      ],
+      "preferred_skills": [
+        "GCP",
+        "Azure",
+        "Spec-driven development",
+        "MCP server development",
+        "AWS certification",
+        "Claude Code certification",
+        "Financial services",
+        "Healthcare",
+        "A2A",
+        "Go",
+        "Rust",
+        "Spark",
+        "Airflow",
+        "Kafka"
+      ],
+      "requirements_summary": [
+        "Требуются production LLM/agentic workflows, eval suite с ground truth и release gates.",
+        "Cloud-native delivery, частичные отказы, tracing, версии prompts, cost/latency и drift."
+      ],
+      "evidence_quote": "B2+ English, comfortable collaborating across distributed, multicultural teams.",
+      "notes": [
+        "Список стран не включает РФ и Казахстан, их договор не подтверждён.",
+        "Текст remote-friendly; публичная форма Lever явно Remote.",
+        "Проверено через текущий публичный Lever API; страница HTML через web отвечала 403.",
+        "B2B; форма спрашивает ожидаемый gross monthly USD, но диапазон работодателя не опубликован."
+      ]
+    },
+    {
+      "id": "global-affirm-8040267003",
+      "company": "Affirm",
+      "title": "Senior Software Engineer, Backend (AI Platform)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8040267003",
+      "source_type": "employer_ats",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "track": "llm_platform",
+      "remote": "fully_remote",
+      "location_text": "Remote US",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": "USD",
+        "min": 173000,
+        "max": 233000,
+        "period": "year",
+        "basis": "unknown",
+        "kind": "base"
+      },
+      "experience_text": "4+ years backend systems at scale; degree or equivalent practical experience.",
+      "english_text": "Явный уровень английского не указан.",
+      "required_skills": [
+        "Python or Kotlin",
+        "Backend engineering",
+        "Distributed systems",
+        "AWS",
+        "MySQL",
+        "Kubernetes",
+        "Production AI",
+        "LLM gateways",
+        "MCP",
+        "LLM evaluation",
+        "Agent runtimes",
+        "System design",
+        "Testing",
+        "On-call"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Строить shared LLM/MCP gateways, bounded agent runtime, evals и observability.",
+        "Governance включает identity, quotas, spend attribution, routing, cache, failover и безопасный доступ к инструментам."
+      ],
+      "evidence_quote": "You have practical experience building with LLMs, agents, or AI frameworks in production",
+      "notes": [
+        "US employment country restriction; работа/договор из РФ/Казахстана не подтверждены.",
+        "Выбран диапазон all other U.S. states $173k–233k; CA/WA/NY/NJ/CT имеют отдельный $195k–255k.",
+        "Onboarding in person; некоторые роли могут иногда требовать офис — для этой роли нужно уточнить при отборе.",
+        "Проверен текущий публичный Greenhouse API и присутствие job ID в активном board."
+      ]
+    }
+  ]
+}

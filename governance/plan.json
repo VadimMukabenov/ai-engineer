@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "plan_version": "1.0.0",
+  "approved_on": "2026-11-26",
+  "approval_source": "Пользователь: «ок давай так и сделай» после ревью 2026-11-26; local-first через официальный SDK уточнено в той же сессии",
+  "goal": {
+    "roles": ["AI Engineer", "Applied AI Engineer", "AI Backend Engineer", "LLM Engineer", "Senior Software Engineer — AI"],
+    "minimum_monthly_net_usd": 5000,
+    "desired_monthly_net_usd": 10000,
+    "work_format": "fully_remote",
+    "hiring_preferences": ["RU", "KZ"],
+    "country_eligibility_verified": false,
+    "english": "Интервью возможно; активную речь развивать",
+    "availability": "Пользователь готов заниматься полный день; календарь калибруется по фактической практике"
+  },
+  "primary_stack": "Python",
+  "mandatory_project_ids": ["support-agent", "incident-analyst", "contract-auditor", "text-to-sql", "recruitment-assistant", "sales-assistant"],
+  "mandatory_module_ids": ["M00", "M01", "M02", "M03", "M04", "M05", "M06", "M07", "M08"],
+  "learning_cycle": ["diagnostic", "theory", "exercise", "lab", "feedback", "independent_assessment", "project_application", "spaced_retrieval"],
+  "provider_policy": {
+    "default": "ollama_local",
+    "sdk": "official OpenAI Python SDK",
+    "local_base_url": "http://127.0.0.1:11434/v1",
+    "local_model": "qwen2.5-coder:7b",
+    "cloud": "Явный конфигурационный профиль, собственный ключ через окружение; проверка capabilities отдельно",
+    "monthly_paid_budget_usd": 0,
+    "budget_status": "Числовой бюджет не задан; пользователь выбрал local-first и переключаемый API",
+    "local_is_cloud_parity": false
+  },
+  "hardware": {"gpu": "NVIDIA RTX 3050 Laptop", "vram_gib": 4, "ram_gib": 32},
+  "hiring_milestone": ["Воспроизводимый показательный сценарий", "README и демонстрация", "Фактические результаты evals", "Самостоятельная защита архитектуры на английском", "Резюме без выдуманного коммерческого AI-стажа"],
+  "constraints": ["Не менять AmneziaWG/VPN, ядро и драйверы", "Не использовать командный Beads", "Не считать код агента подтверждением навыка", "Не считать unknown положительным соответствием вакансии", "Не откладывать отклики до окончания всех шести проектов"],
+  "next_learning_step": "D00"
+}

@@ -1,0 +1,866 @@
+{
+  "batch_id": "ru",
+  "checked_on": "2026-11-26",
+  "limitations": [
+    "Пользователь предпочитает РФ, допускает Казахстан, только удалённо. Гражданство, фактическая локация, право найма и договорные возможности не подтверждены.",
+    "Суммы RUB не конвертируются; рекомендованные Хабром зарплаты похожих специалистов не считаются вилкой работодателя.",
+    "HH individual pages возвращают ошибки доступа; поисковые карточки не считаются полными текстами.",
+    "Проверка текущей доступности страницы не гарантирует, что вакансия не будет закрыта позднее.",
+    "Выборка преимущественно Хабр Карьера из-за доступности источников; это не репрезентативная оценка рынка.",
+    "HTTP 410 на проверке Jetlyn 1000167245 и RWB 1000165789: исключены из текущих вакансий.",
+    "HH IEK 137806861 и OSMI 139528512 недоступны при прямой проверке; старый brief не использован как доказательство требований.",
+    "verified означает доступный содержательный текст публикации, а не подтверждённый fit, зарплату или независимый канал спроса.",
+    "Удалёнка только в короткой карточке без раскрытых условий обозначена remote=unknown; это не отобранные fully_remote вакансии.",
+    "Смежные data/platform, backend lead, CV и разовые проекты помечены notes; не следует смешивать их с чистыми AI Backend при подсчётах.",
+    "Все используемые короткие цитаты ограничены 18 словами; пересказы не являются дословными требованиями."
+  ],
+  "vacancies": [
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "unknown",
+      "location_text": "Москва; ТК РФ; карточка допускает удалёнку",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "От 3 лет промышленной Python-разработки",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "FastAPI",
+        "asyncio",
+        "REST API",
+        "SQL",
+        "Docker",
+        "Git",
+        "LLM API",
+        "structured output",
+        "tool calling",
+        "MCP",
+        "RAG",
+        "embeddings",
+        "reranking",
+        "evals",
+        "prompt injection"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Интеграции агентов с 1С, почтой и файлами; обработка документов и оценка качества.",
+        "Требуются разграничение доступа и управление секретами."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением.",
+        "Удалёнка указана в карточке, в описании перечислены офисные условия; полностью дистанционный режим требует уточнения."
+      ],
+      "id": "ru-habr-1000170305",
+      "company": "ДеФакто",
+      "title": "AI Engineer / Python Developer | LLM Agents & Rag |",
+      "url": "https://career.habr.com/vacancies/1000170305",
+      "track": "ai_backend",
+      "evidence_quote": "Python, промышленная разработка от трёх лет"
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "fully_remote",
+      "location_text": "Удалённый/гибридный формат; офис Москва",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "От 3 лет коммерческой Python-разработки",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "asyncio",
+        "typing",
+        "testing",
+        "REST",
+        "gRPC",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "AI agents",
+        "LLM",
+        "Kafka / Redis / RabbitMQ (альтернативы в тексте)"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Проектирование агентов с памятью и инструментами; перевод PoC в production.",
+        "Оценка архитектуры, качества, скорости и стоимости; исследование observability и guardrails."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением.",
+        "Удалённый формат указан как альтернатива гибридному; допустимые страны не указаны."
+      ],
+      "id": "ru-habr-1000170599",
+      "company": "AGIMA",
+      "title": "Senior AI Engineer (Python / LLM / AI Agents)",
+      "url": "https://career.habr.com/vacancies/1000170599",
+      "track": "applied_ai",
+      "evidence_quote": "От 3 лет коммерческого опыта разработки на Python."
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "fully_remote",
+      "location_text": "Москва; офисный, гибридный или удалённый формат",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Практический backend-опыт; число лет не указано",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "asyncio",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Kafka",
+        "RAG",
+        "embeddings",
+        "retrieval",
+        "reranking",
+        "unit tests",
+        "integration tests",
+        "idempotency",
+        "retry/backoff"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Асинхронные API, RAG и агентные сценарии, изоляция данных пользователей.",
+        "Требуется надёжность интеграций и понимание семантики Kafka; стек включает Qdrant, LangGraph, Ollama, vLLM, Langfuse и OpenTelemetry."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением."
+      ],
+      "id": "ru-habr-1000169407",
+      "company": "QSOFT / TEAMLY",
+      "title": "Python-разработчик AI-сервисов (LLM / RAG)",
+      "url": "https://career.habr.com/vacancies/1000169407",
+      "track": "ai_backend",
+      "evidence_quote": "Опыт разработки API на FastAPI или сопоставимом Python-фреймворке."
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "fully_remote",
+      "location_text": "Удалённо; Москва / Санкт-Петербург / Самара в карточке",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "От 3 лет Python; Middle+ / Senior",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "pandas",
+        "Excel",
+        "CSV",
+        "PDF parsing",
+        "REST API",
+        "data matching",
+        "Git"
+      ],
+      "preferred_skills": [
+        "OCR",
+        "Tesseract",
+        "PaddleOCR",
+        "PyMuPDF",
+        "pdfplumber",
+        "fuzzy matching",
+        "LLM API",
+        "on-premise"
+      ],
+      "requirements_summary": [
+        "MVP для извлечения, нормализации и сверки финансовых документов.",
+        "LLM-интеграции относятся к преимуществам; собственные модели с нуля не требуются."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением.",
+        "Проектная занятость / аутстафф, полная или частичная загрузка; стабильный месячный доход не подтверждён."
+      ],
+      "id": "ru-habr-1000168741",
+      "company": "AYROSA",
+      "title": "Python Developer / AI Engineer (Document Processing)",
+      "url": "https://career.habr.com/vacancies/1000168741",
+      "track": "ai_backend",
+      "evidence_quote": "Коммерческий опыт разработки на Python от 3 лет."
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "unknown",
+      "location_text": "Москва; карточка допускает удалёнку",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Больше 2 лет в ML/NLP/LLM, включая production",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "ML",
+        "NLP",
+        "LLM",
+        "RAG",
+        "production ML"
+      ],
+      "preferred_skills": [
+        "advanced RAG",
+        "LangGraph",
+        "AutoGen",
+        "Pydantic AI",
+        "dialog systems",
+        "legal domain"
+      ],
+      "requirements_summary": [
+        "Оптимизация RAG и юридических агентов; оценка подтверждённости генерации.",
+        "В задачах дообучение, RL, latency и мониторинг; опыт LangGraph/AutoGen/Pydantic AI является плюсом."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением.",
+        "Карточка допускает удалёнку; страны и полностью дистанционные условия не раскрыты."
+      ],
+      "id": "ru-habr-1000164856",
+      "company": "Яндекс",
+      "title": "Старший LLM-разработчик в сервис Нейроюрист",
+      "url": "https://career.habr.com/vacancies/1000164856",
+      "track": "applied_ai",
+      "evidence_quote": "Больше двух лет работали в ML/NLP/LLM-проектах, включая prod-системы"
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "fully_remote",
+      "location_text": "Полностью удалённо внутри страны; Россия по контексту работодателя",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "От 4 лет ML / AI / NLP / LLM Engineer; опыт production",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "LLM API",
+        "agents",
+        "tool calling",
+        "structured output",
+        "RAG",
+        "evals",
+        "OCR",
+        "Git",
+        "Docker",
+        "Linux",
+        "REST API",
+        "CI/CD",
+        "observability"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Продуктовый медицинский AI-помощник с агентами и интеграциями.",
+        "Требуются golden datasets, регрессионная оценка, обработка сбоев, оптимизация стоимости и задержек."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением."
+      ],
+      "id": "ru-habr-1000169766",
+      "company": "СберЗдоровье",
+      "title": "Senior ML Engineer (NLP)",
+      "url": "https://career.habr.com/vacancies/1000169766",
+      "track": "applied_ai",
+      "evidence_quote": "полностью удаленный формат работы внутри страны"
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "fully_remote",
+      "location_text": "Только РФ; МСК ±2; полная удалёнка",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": "RUB",
+        "min": 260000,
+        "max": 300000,
+        "period": "month",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Не указано",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "SQL",
+        "ML lifecycle",
+        "statistics",
+        "A/B testing",
+        "LLM evals",
+        "LLM API",
+        "Hugging Face",
+        "agents",
+        "HITL",
+        "prompt injection",
+        "MLOps",
+        "GPU inference",
+        "LoRA",
+        "PEFT"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "ИИ-инкубатор ритейлера: PoC, архитектура агентов и production-модели.",
+        "Требуются контроль data leakage, оценка эффекта, стоимость и наблюдаемость."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением.",
+        "ИП; проект до конца года, продолжение возможно; gross/net не указан."
+      ],
+      "id": "ru-habr-1000168339",
+      "company": "Top Selection",
+      "title": "AI исследователь",
+      "url": "https://career.habr.com/vacancies/1000168339",
+      "track": "ml_heavy",
+      "evidence_quote": "Гражданство/локация: Только РФ"
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "fully_remote",
+      "location_text": "Удалённый формат доступен наряду с офисом/гибридом; страны не уточнены",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "От 3,5 лет MLOps / Data Engineer / Python ML",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "SQL",
+        "Kubeflow",
+        "MLflow",
+        "Airflow",
+        "Docker",
+        "Kubernetes",
+        "cloud",
+        "Greenplum/MPP",
+        "Spark",
+        "LangChain/LlamaIndex",
+        "FastAPI",
+        "LLM frameworks",
+        "GitLab CI/CD"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Платформа AI-агентов и MLOps для банковского заказчика.",
+        "Нужен production-опыт оркестрации, развёртывания моделей и распределённой обработки данных."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением."
+      ],
+      "id": "ru-habr-1000165362",
+      "company": "Aston",
+      "title": "MLOps Engineer",
+      "url": "https://career.habr.com/vacancies/1000165362",
+      "track": "llm_platform",
+      "evidence_quote": "опыт работы в роли MLOps Engineer/Data Engineer/Python ML от 3,5 лет"
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "fully_remote",
+      "location_text": "РФ; удалённо; оформление только ИП",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": "RUB",
+        "min": 240000,
+        "max": 250000,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Не указано",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "pandas/Polars",
+        "SQL",
+        "ETL/ELT",
+        "orchestration",
+        "AI coding tools",
+        "S3",
+        "PostgreSQL",
+        "Greenplum",
+        "Oracle",
+        "Superset",
+        "Streamlit"
+      ],
+      "preferred_skills": [
+        "Airflow",
+        "LLM",
+        "RAG",
+        "agents",
+        "vector databases",
+        "Git",
+        "GitLab",
+        "statistics"
+      ],
+      "requirements_summary": [
+        "Данные и метрики CodeGen/LLM-платформы, пайплайны обновления и индексации.",
+        "LLM/RAG, векторный поиск и Data Science отдельно обозначены как преимущества."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением.",
+        "Смежная data/platform роль; не чистый AI Backend.",
+        "Числа зарплаты в карточке; период и gross/net не подписаны."
+      ],
+      "id": "ru-habr-1000169259",
+      "company": "Top Selection",
+      "title": "Data Analyst / Data Engineer (LLM/AI, Data)",
+      "url": "https://career.habr.com/vacancies/1000169259",
+      "track": "llm_platform",
+      "evidence_quote": "Локация и гражданство: РФ"
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "fully_remote",
+      "location_text": "Полностью удалённо; только граждане РФ, ИП/самозанятые",
+      "hiring_eligibility": "restricted",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "От 6 лет коммерческой Python-разработки",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "Django/DRF or FastAPI",
+        "SQL",
+        "PostgreSQL",
+        "ORM",
+        "queues",
+        "caching",
+        "Git",
+        "Linux",
+        "Docker",
+        "CI/CD",
+        "system design",
+        "code review"
+      ],
+      "preferred_skills": [
+        "Kafka",
+        "RabbitMQ",
+        "Celery",
+        "Redis",
+        "Kubernetes",
+        "HighLoad",
+        "LLM",
+        "RAG",
+        "Tech Lead"
+      ],
+      "requirements_summary": [
+        "Архитектура backend и микросервисов; взаимодействие с AI/ML-командой.",
+        "LLM/RAG/ML-интеграции являются преимуществом, требуется руководство разработкой."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением.",
+        "Неполный рабочий день; смежная backend leadership роль, AI-опыт не обязательный."
+      ],
+      "id": "ru-habr-1000168764",
+      "company": "Strikt",
+      "title": "Python Developer Lead",
+      "url": "https://career.habr.com/vacancies/1000168764",
+      "track": "ai_backend",
+      "evidence_quote": "Оформление по договору с самозанятыми и ИП — только граждане РФ;"
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "unknown",
+      "location_text": "Удалёнка в карточке; ТК; география не раскрыта",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "ML от 6 лет; NLP от 3 лет; профильное высшее образование",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "ML",
+        "NLP",
+        "transformers",
+        "attention",
+        "tokenization",
+        "ONNX/Triton",
+        "LangChain/LangGraph",
+        "testing",
+        "CI/CD",
+        "ClearML/MLflow",
+        "model monitoring"
+      ],
+      "preferred_skills": [
+        "PEFT",
+        "Qdrant",
+        "Pinecone",
+        "hybrid search"
+      ],
+      "requirements_summary": [
+        "От NLP-классификаторов до fine-tuning LLM и агентов.",
+        "Нужны production Python, оптимизация inference и мониторинг drift/бизнес-метрик."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением.",
+        "Полностью дистанционные условия и страны уточняются; стаж/образование нельзя заменить закрытием проектов."
+      ],
+      "id": "ru-habr-1000167593",
+      "company": "Фарпост",
+      "title": "Data Scientist (NLP, LLM)",
+      "url": "https://career.habr.com/vacancies/1000167593",
+      "track": "ml_heavy",
+      "evidence_quote": "опыт работы с ML от 6 лет, NLP от 3-х лет;"
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "fully_remote",
+      "location_text": "Удалённо; страны не указаны",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "От 3 лет коммерческого backend; LLM-сервисы в production",
+      "english_text": "B1+: чтение и написание технической документации",
+      "required_skills": [
+        "Python",
+        "asyncio",
+        "FastAPI",
+        "Pydantic",
+        "SSE",
+        "LLM API",
+        "tool calling",
+        "structured output",
+        "rate limits",
+        "retry/backoff",
+        "PostgreSQL",
+        "Redis",
+        "React",
+        "TypeScript",
+        "Claude Code"
+      ],
+      "preferred_skills": [
+        "RAG",
+        "vector databases",
+        "Celery/arq/Dramatiq",
+        "Langfuse",
+        "OpenTelemetry",
+        "Docker",
+        "pytest",
+        "evals"
+      ],
+      "requirements_summary": [
+        "Python backend AI-функций с несколькими провайдерами, streaming, retrieval и учётом стоимости.",
+        "Требуется самостоятельное ревью AI-кода и готовность исправлять React/TypeScript."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением.",
+        "Выход на следующий день после интервью — явное ограничение.",
+        "TypeScript требуется в этой конкретной вакансии; это не доказательство спроса всей выборки."
+      ],
+      "id": "ru-habr-1000169682",
+      "company": "SR / Silentroom",
+      "title": "Claude Code Backend Developer",
+      "url": "https://career.habr.com/vacancies/1000169682",
+      "track": "ai_backend",
+      "evidence_quote": "Full-time, удалённо. Зарплату обсудим на собеседовании."
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "unknown",
+      "location_text": "Москва; удалёнка в карточке",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": "RUB",
+        "min": 80000,
+        "max": 100000,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Число лет не указано; требуются примеры похожих результатов",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "API",
+        "task queues",
+        "LLM",
+        "structured output",
+        "agents",
+        "RAG",
+        "vision",
+        "diffusion models",
+        "ComfyUI",
+        "evals"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Разовый проект генерации планировок, визуализаций и расчёта бюджета.",
+        "Проверки на примерах работодателя, сравнение моделей и стоимость каждого действия."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением.",
+        "Разовая задача 2–3 недели; это оплата за результат, не месячная зарплата.",
+        "Договор ИП/самозанятый; постоянная роль только возможна после проекта.",
+        "Полный дистанционный режим не раскрыт в описании."
+      ],
+      "id": "ru-habr-1000170429",
+      "company": "СОВ ГРУПП / SOVE",
+      "title": "AI инженерия, LLM",
+      "url": "https://career.habr.com/vacancies/1000170429",
+      "track": "applied_ai",
+      "evidence_quote": "Оплата за задачу: 80–100 тыс. ₽, сумму фиксируем до старта."
+    },
+    {
+      "source_type": "job_board",
+      "verification": "verified",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "confirmed",
+      "remote": "unknown",
+      "location_text": "Карточка допускает удалёнку; страны и полная удалёнка не раскрыты",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Не указано",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "SQL",
+        "ML fundamentals",
+        "statistics",
+        "A/B testing",
+        "LLM evals",
+        "LLM API",
+        "Hugging Face",
+        "LoRA/PEFT",
+        "agents",
+        "HITL",
+        "GPU inference",
+        "MLOps"
+      ],
+      "preferred_skills": [
+        "retail",
+        "e-commerce",
+        "highload"
+      ],
+      "requirements_summary": [
+        "PoC генерации изображений и интерьерных решений, данные, обучение, evals и демонстрация.",
+        "Нужна специализация хотя бы в одном направлении, приоритет CV/GenAI; NLP/RAG, рекомендации или классический ML — альтернативы."
+      ],
+      "notes": [
+        "Соответствие минимуму $5000 net и стране найма не подтверждено.",
+        "На странице дата без года; posted_on не восстановлена предположением.",
+        "Смежная ML-heavy роль с приоритетом CV, а не чистый AI Backend.",
+        "Возможно пересечение клиентского проекта с Top Selection AI-исследователем; независимость спроса не подтверждена."
+      ],
+      "id": "ru-habr-1000169302",
+      "company": "Джетлин",
+      "title": "Machine Learning Engineer (Generative AI / Computer Vision)",
+      "url": "https://career.habr.com/vacancies/1000169302",
+      "track": "ml_heavy",
+      "evidence_quote": "Опыт fine-tuning или адаптации LLM (LoRA / PEFT)."
+    },
+    {
+      "source_type": "job_board",
+      "verification": "partial",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "unknown",
+      "remote": "unknown",
+      "location_text": "Москва; «Можно удалённо» в поисковой карточке; география найма неизвестна",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "Более 6 лет по карточке поиска",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "asyncio",
+        "FastAPI",
+        "message brokers"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Отказоустойчивый Python backend управления жизненным циклом агентов; доступны лишь краткие требования."
+      ],
+      "notes": [
+        "Полный текст индивидуальной карточки не открылся; проверена только карточка поиска HH.",
+        "Требования извлечены из фрагмента; их полнота и обязательность требуют повторной проверки.",
+        "Полностью удалённый режим, зарплатный минимум $5000 net и договорная доступность не подтверждены.",
+        "Прочитанный первичный поисковый источник: https://hh.ru/search/vacancy?enable_snippets=true&hhtmFrom=vacancy_search_list&ored_clusters=true&page=0&search_session_id=aef321fe-bdad-43e5-bb70-3c9f0f099a05&text=%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%BB%D0%BE%D0%B3&work_format=REMOTE"
+      ],
+      "id": "ru-hh-139691432",
+      "company": "USETECH",
+      "title": "Python LangChain/AI Developer",
+      "url": "https://hh.ru/vacancy/139691432",
+      "track": "ai_backend",
+      "evidence_quote": "Экспертное знание Python, глубокое понимание асинхронного программирования (Asyncio)"
+    },
+    {
+      "source_type": "job_board",
+      "verification": "partial",
+      "checked_on": "2026-11-26",
+      "posted_on": null,
+      "active": "unknown",
+      "remote": "unknown",
+      "location_text": "Москва; «Можно удалённо» в поисковой карточке; география найма неизвестна",
+      "hiring_eligibility": "unknown",
+      "salary": {
+        "currency": null,
+        "min": null,
+        "max": null,
+        "period": "unknown",
+        "basis": "unknown",
+        "kind": "unknown"
+      },
+      "experience_text": "1–3 года по карточке поиска",
+      "english_text": "Не указано",
+      "required_skills": [
+        "Python",
+        "Django",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "preferred_skills": [],
+      "requirements_summary": [
+        "Python backend и API на Django/FastAPI на пересечении с AI Engineering; полный текст недоступен."
+      ],
+      "notes": [
+        "Полный текст индивидуальной карточки не открылся; проверена только карточка поиска HH.",
+        "Требования извлечены из фрагмента; их полнота и обязательность требуют повторной проверки.",
+        "Полностью удалённый режим, зарплатный минимум $5000 net и договорная доступность не подтверждены.",
+        "Прочитанный первичный поисковый источник: https://hh.ru/search/vacancy?enable_snippets=true&hhtmFrom=vacancy_search_list&ored_clusters=true&page=0&search_session_id=9459fba9-07ec-40f8-9965-3b2c3fece7b9&text=django&work_format=REMOTE"
+      ],
+      "id": "ru-hh-139112128",
+      "company": "WB—Tech",
+      "title": "Python Backend / AI Engineer",
+      "url": "https://hh.ru/vacancy/139112128",
+      "track": "ai_backend",
+      "evidence_quote": "Хорошее знание PostgreSQL и Redis."
+    }
+  ]
+}
