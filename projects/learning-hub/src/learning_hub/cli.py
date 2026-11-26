@@ -63,7 +63,7 @@ def main():
                 "project_ids",
             ]
             with target.open("w", newline="", encoding="utf-8") as stream:
-                writer = csv.DictWriter(stream, fieldnames=fields)
+                writer = csv.DictWriter(stream, fieldnames=fields, lineterminator="\n")
                 writer.writeheader()
                 for row in report["matrix"]:
                     writer.writerow(

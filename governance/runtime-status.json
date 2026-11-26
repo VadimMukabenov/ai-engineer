@@ -6,10 +6,57 @@
   "initial_mastered_outcomes": 0,
   "paid_calls_performed": false,
   "local_sdk_smoke": "passed",
-  "github_push": "pending",
-  "github_ci": "pending",
-  "code_restore": "pending",
-  "beads_restore": "local round-trip passed; remote snapshot pending",
-  "server_protection": "not yet inspected",
-  "independent_trust_boundary": false
+  "github_push": {
+    "verified_commit": "4f7fcb4b427a94d250b5a72764eefbb92a7094c7",
+    "branch": "main"
+  },
+  "github_ci": {
+    "status": "success",
+    "run_id": 45897827934,
+    "verified_commit": "4f7fcb4b427a94d250b5a72764eefbb92a7094c7",
+    "launch_mode": "workflow_dispatch",
+    "automatic_pr_check_verified": false,
+    "latest_verified_branch_commit": "63a332252f7479f2ab352a6fb15e230ec024abdd",
+    "latest_branch_run_id": 45898264112
+  },
+  "code_restore": {
+    "status": "passed",
+    "remote_checked": true,
+    "verified_commit": "4f7fcb4b427a94d250b5a72764eefbb92a7094c7",
+    "tracked_source_files_compared": 79,
+    "latest_branch_verified_commit": "63a332252f7479f2ab352a6fb15e230ec024abdd",
+    "latest_branch_source_files_compared": 82,
+    "latest_branch_snapshot": "backups/beads-2026-11-27-02",
+    "latest_branch_tracker_issues": 6
+  },
+  "beads_restore": {
+    "remote_snapshot": "backups/beads-2026-11-27-01",
+    "remote_verified_issues": 5,
+    "remote_verified_dependencies": 6,
+    "new_local_snapshot": "backups/beads-2026-11-27-03",
+    "new_local_snapshot_verified": true,
+    "new_snapshot_issues": 7,
+    "new_snapshot_dependencies": 6
+  },
+  "server_protection": {
+    "main": true,
+    "required_pr": true,
+    "required_check": "verify",
+    "strict_status_checks": true,
+    "force_push": false,
+    "deletion": false,
+    "required_human_approvals": 0,
+    "enforce_admins": false,
+    "verified_via": "GitHub REST API"
+  },
+  "independent_trust_boundary": false,
+  "observed_visibility": "public",
+  "next_learning_task": "aie-8ve",
+  "integration": {
+    "pull_request": "https://github.com/VadimMukabenov/ai-engineer/pull/1",
+    "state": "open",
+    "blocked_by": "required PR check verify not reported; manual workflow run does not satisfy it",
+    "task": "aie-ala",
+    "protection_bypassed": false
+  }
 }
