@@ -10,4 +10,6 @@ Local-first smoke: официальный OpenAI Python SDK → локальны
 
 Beads: snapshot `backups/beads-2026-11-27-01` содержит 5 задач/6 зависимостей, email владельца отредактирован для публичной публикации. Фактический логический restore в чистую базу прошёл. Ограничения импорта comment IDs/автора связи и отсутствия Dolt/audit history сохранены в manifest и docs/beads.md.
 
-Удалённый push, GitHub CI, полное восстановление из GitHub и server protection на момент этого baseline ещё проверяются. Их окончательный результат фиксируется отдельным обновлением `governance/runtime-status.json`, без подмены локальной проверки удалённой.
+GitHub подтвердил публичный репозиторий и main commit `4f7fcb4b427a94d250b5a72764eefbb92a7094c7`. CI [45897827934](https://github.com/VadimMukabenov/ai-engineer/actions/runs/45897827934) завершился success. Полное восстановление из GitHub подтвердило 79 файлов исходников, 5 задач/6 зависимостей и нулевой учебный прогресс. После закрытия foundation и создания D00-задачи свежий локальный snapshot 02 содержит 6 задач/6 зависимостей, его round-trip также прошёл. Эти два проверенных состояния различаются явно.
+
+GitHub REST подтвердил защиту main: обязательный PR, check verify с strict=true, force push/deletion запрещены. Требование независимого одобрения равно 0, enforce_admins=false: владелец может обходить правила. Независимая граница доверия не заявляется. Машиночитаемые факты и точные субъекты проверок: governance/runtime-status.json.

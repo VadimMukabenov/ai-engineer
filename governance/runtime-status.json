@@ -6,10 +6,42 @@
   "initial_mastered_outcomes": 0,
   "paid_calls_performed": false,
   "local_sdk_smoke": "passed",
-  "github_push": "pending",
-  "github_ci": "pending",
-  "code_restore": "pending",
-  "beads_restore": "local round-trip passed; remote snapshot pending",
-  "server_protection": "not yet inspected",
-  "independent_trust_boundary": false
+  "github_push": {
+    "verified_commit": "4f7fcb4b427a94d250b5a72764eefbb92a7094c7",
+    "branch": "main"
+  },
+  "github_ci": {
+    "status": "success",
+    "run_id": 45897827934,
+    "verified_commit": "4f7fcb4b427a94d250b5a72764eefbb92a7094c7"
+  },
+  "code_restore": {
+    "status": "passed",
+    "remote_checked": true,
+    "verified_commit": "4f7fcb4b427a94d250b5a72764eefbb92a7094c7",
+    "tracked_source_files_compared": 79
+  },
+  "beads_restore": {
+    "remote_snapshot": "backups/beads-2026-11-27-01",
+    "remote_verified_issues": 5,
+    "remote_verified_dependencies": 6,
+    "new_local_snapshot": "backups/beads-2026-11-27-02",
+    "new_local_snapshot_verified": true,
+    "new_snapshot_issues": 6,
+    "new_snapshot_dependencies": 6
+  },
+  "server_protection": {
+    "main": true,
+    "required_pr": true,
+    "required_check": "verify",
+    "strict_status_checks": true,
+    "force_push": false,
+    "deletion": false,
+    "required_human_approvals": 0,
+    "enforce_admins": false,
+    "verified_via": "GitHub REST API"
+  },
+  "independent_trust_boundary": false,
+  "observed_visibility": "public",
+  "next_learning_task": "aie-8ve"
 }
