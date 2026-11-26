@@ -1,5 +1,5 @@
 name: Verify course foundation
-on:
+"on":
   push:
   pull_request:
     types: [opened, synchronize, reopened]
