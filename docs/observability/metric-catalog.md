@@ -225,4 +225,3 @@
 | `model-control.disabled_request_escape_count` | Запросы при выключенном AI · count | Новые generation/embedding requests Learning Hub, дошедшие до backend после disable admission commit; начатые раньше и независимые CLI/capstone показываются отдельно. | `controller_events + provider_attempts` |
 | `model-control.unload_busy_conflict_count` | Выгрузка при занятости · count | Отклонённые/отложенные unload из-за собственных in-flight requests или внешнего конфликта. | `controller_events` |
 | `model-control.control_state_mismatch_seconds` | Расхождение requested/observed · s | Длительность loading/draining/stale/error с timestamp последнего наблюдения; unknown не заменять off. | `controller_events` |
-
