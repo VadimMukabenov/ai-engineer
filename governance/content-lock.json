@@ -3,10 +3,10 @@
   "plan_version": "1.0.0",
   "approval_source": "User approved reviewed foundation; baseline created 2026-11-27",
   "files": {
-    "governance/plan.json": "b528fd6c894fb10cd62043c2718e5a022c332bab3ea31bee0628500a483aee46",
+    "governance/plan.json": "4d90a6673e9086199cd1e3c1854a681a26a9d80d2214837a76fbb9cc57672166",
     "docs/approved-requirements.md": "c95c029fbee9e86a4b2c6dd90217dcb5dcc30ee5be52d7841f60ed56d5853a1f",
     "docs/teaching-method.md": "57b758fff185b478946b5d902daafd96fdd221ce9a78100bc1be307051137b89",
-    "projects/learning-hub/course/catalog.json": "91c44d17a3db26d05e66ea16060b330833c03e09392d325b146020a3ef9aae23",
+    "projects/learning-hub/course/catalog.json": "0698e0d58f7f3bdd11a6d2f0eb1ebd77fb43f2465676a12d02bb802a7361b60b",
     "projects/contract-auditor/passport.json": "fac5188dae1f93e0e3790540786a7929544cb3be0df3a588067d0607f45dd733",
     "projects/incident-analyst/passport.json": "ec56f58283117f04b76b181713677f3b2a9036c858d96e39a865140fe7078d33",
     "projects/recruitment-assistant/passport.json": "7cfe0f4b30f56f505535d01dc35ae9eddc216074cbacc4ad96448a8dcc4f530e",
@@ -16,6 +16,9 @@
     "projects/learning-hub/course/versions/1.0.0.json": "91c44d17a3db26d05e66ea16060b330833c03e09392d325b146020a3ef9aae23",
     "projects/learning-hub/course/materials/D00.md": "265815bb4484419c59a41a38c1acab4bce93afce4b744029a358b7a69f5500d0",
     "projects/learning-hub/course/materials/L00.md": "f297ec86189e919e03cc231a7e2e96c9896051659d7ea9c6a510a1375fcb8a7b",
-    "labs/direct-llm-api/README.md": "85e6e9a9e4a265467d9ea513120f01517a8501b48ff500030db192ffcfa913d7"
-  }
+    "labs/direct-llm-api/README.md": "85e6e9a9e4a265467d9ea513120f01517a8501b48ff500030db192ffcfa913d7",
+    "projects/learning-hub/course/versions/1.0.1.json": "0698e0d58f7f3bdd11a6d2f0eb1ebd77fb43f2465676a12d02bb802a7361b60b",
+    "projects/learning-hub/course/materials/M00-THEORY.md": "07a4b8f76e8755fa6b56f9cd6f76904b2eb90e032c7cd1081a24b80f9f9752cd"
+  },
+  "change_reference": "governance/changes/2026-11-27-platform-learning-route.md"
 }

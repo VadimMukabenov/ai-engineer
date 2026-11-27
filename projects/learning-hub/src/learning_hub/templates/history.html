@@ -4,15 +4,15 @@
 {% for error in record_errors %}<p class="alert">{{error}}</p>{% endfor %}
 {% for a in attempts %}
 <article class="panel attempt">
-<div class="section-heading"><h2>{{a.lesson_id}}</h2><span>{{a.recorded_at.isoformat(timespec='minutes')}}</span></div>
-<p class="muted">Помощь: {{a.assistance}} · программа {{a.course_version}}</p>
+<div class="section-heading"><h2>{{a.lesson_id}}{% if a.kind == "self_report" %} · Самоотчёт{% endif %}</h2><span>{{a.recorded_at.isoformat(timespec='minutes')}}</span></div>
+<p class="muted">Помощь: {{"Не уточнено" if a.assistance == "unspecified" else a.assistance}} · программа {{a.course_version}}{% if a.recorded_by == "mentor" %} · записано наставником со слов ученика{% endif %}</p>
 <pre class="answer">{{a.answer}}</pre><small>{{a.id}}</small>
 {% set ns=namespace(count=0) %}{% for grade in assessments %}{% if grade.attempt_id == a.id %}{% set ns.count=ns.count+1 %}
 <section class="outcome"><h3>{{grade.outcome_id}} · {{'Проверка пройдена' if grade.decision == 'passed' else 'Нужна доработка'}}</h3>
 <p>{{grade.rationale}}</p><p class="muted">{{grade.id}} · проверяющий {{grade.reviewer}} · {{grade.recorded_at.isoformat(timespec='minutes')}}<br>Программа {{grade.course_version}}, критерий {{grade.criterion_version}}, метод {{grade.method}}, помощь {{grade.assistance}}</p>
 <details><summary>Доказательства и привязка к попытке</summary><p class="answer">SHA-256 попытки: {{grade.attempt_sha256}}</p><ul>{% for ev in grade.evidence %}<li><code>{{ev.path}}</code><p class="answer muted">{{ev.sha256}}</p></li>{% endfor %}</ul></details>
 <p class="muted">Зачёт в текущей программе зависит от версии критерия, независимости и целостности доказательств. Решение из истории само по себе не переносит зачёт.</p></section>
-{% endif %}{% endfor %}{% if ns.count == 0 %}<p class="muted">Ожидает проверки</p>{% endif %}
+{% endif %}{% endfor %}{% if a.kind == "self_report" %}<p class="muted">Самоотчёт не является проверкой знаний и не даёт зачёт.</p>{% elif ns.count == 0 %}<p class="muted">Ожидает проверки</p>{% endif %}
 </article>
-{% else %}<section class="panel empty"><h2>Пока нет попыток</h2><p>Начни с диагностики — здесь появятся твои ответы, помощь и результаты.</p><a class="button primary" href="/lessons/{{report.next_lesson_id}}">Начать диагностику</a></section>{% endfor %}
+{% else %}<section class="panel empty"><h2>Пока нет попыток</h2><p>Начни с диагностики — здесь появятся твои ответы, помощь и результаты.</p>{% if report.next_lesson and report.next_lesson.state == "ready" %}<a class="button primary" href="/lessons/{{report.next_lesson_id}}">{{"Начать диагностику" if report.next_lesson.kind == "diagnostic" else "Открыть занятие"}}</a>{% endif %}</section>{% endfor %}
 {% endblock %}

@@ -209,3 +209,50 @@ def test_historical_records_still_require_unchanged_provenance(course_root, targ
     report = build_progress(course_root)
     assert not report["integrity"]["valid"]
     assert report["mastered_outcomes"] == 0
+
+
+def test_self_report_survives_read_without_counting_as_answer_or_mastery(course_root):
+    from learning_hub.records import read_records
+
+    row = save_attempt(
+        course_root,
+        "D00",
+        "Не смог решить без помощи",
+        "unspecified",
+        kind="self_report",
+        recorded_by="mentor",
+    )
+    attempts, _, errors = read_records(course_root)
+    assert not errors
+    assert attempts[0].kind == "self_report"
+    assert attempts[0].recorded_by == "mentor"
+    assert attempts[0].answer == "Не смог решить без помощи"
+    report = build_progress(course_root)
+    assert report["attempt_count"] == 0
+    assert report["self_report_count"] == 1
+    assert report["mastered_outcomes"] == 0
+    assert not report["modules"][0]["attempted"]
+    assert report["modules"][0]["reported"]
+    assessment(course_root, row)
+    errors = validate_repository(course_root)
+    assert any("самоотчёт" in error for error in errors)
+    assert build_progress(course_root)["mastered_outcomes"] == 0
+
+
+def test_legacy_attempt_keeps_meaning_without_rewriting(course_root):
+    from learning_hub.records import read_records
+
+    row = save_attempt(course_root, "D00", "Independent answer", "none")
+    path = course_root / "learning_records/attempts" / f"{row['id']}.json"
+    old = json.loads(path.read_text())
+    old.pop("kind", None)
+    old.pop("recorded_by", None)
+    write_json(path, old)
+    original = path.read_bytes()
+    attempts, _, errors = read_records(course_root)
+    assert not errors
+    assert attempts[0].kind == "answer"
+    assert attempts[0].recorded_by == "learner"
+    assessment(course_root, row)
+    assert build_progress(course_root)["mastered_outcomes"] == 1
+    assert path.read_bytes() == original

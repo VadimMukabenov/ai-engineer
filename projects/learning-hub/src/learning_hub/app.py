@@ -81,6 +81,7 @@ def create_app(root: Path | None = None) -> FastAPI:
         lesson_id: str,
         answer: str = Form(""),
         assistance: str = Form("none"),
+        kind: str = Form("answer"),
         csrf_token: str = Form(""),
     ):
         lesson_by_id(lesson_id)
@@ -90,7 +91,7 @@ def create_app(root: Path | None = None) -> FastAPI:
         ):
             raise HTTPException(403, "Откройте урок заново перед отправкой")
         try:
-            save_attempt(root, lesson_id, answer, assistance)
+            save_attempt(root, lesson_id, answer, assistance, kind=kind)
         except ValueError:
             raise HTTPException(422, "Нужен ответ до 20 000 символов и корректная отметка помощи")
         return RedirectResponse("/history?saved=1", status_code=303)
