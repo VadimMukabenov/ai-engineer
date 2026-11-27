@@ -12,7 +12,7 @@ from pydantic import AwareDatetime, BaseModel, ConfigDict, Field
 
 from .files import read_json, safe_path
 
-Assistance = Literal["none", "documentation", "hint", "ai_partial", "ai_solution"]
+Assistance = Literal["none", "documentation", "hint", "ai_partial", "ai_solution", "unspecified"]
 
 
 class Attempt(BaseModel):
@@ -23,6 +23,8 @@ class Attempt(BaseModel):
     course_version: str
     answer: str = Field(min_length=1, max_length=20000)
     assistance: Assistance
+    kind: Literal["answer", "self_report"] = "answer"
+    recorded_by: Literal["learner", "mentor"] = "learner"
     author: Literal["learner"] = "learner"
     status: Literal["submitted"] = "submitted"
     recorded_at: AwareDatetime
@@ -109,6 +111,8 @@ def record_errors(root: Path, catalog: dict) -> list[str]:
             errors.append(f"Оценка {a.id}: {exc}")
         if attempt.course_version != a.course_version:
             errors.append(f"Оценка {a.id}: несовместимые версии")
+        if a.decision == "passed" and attempt.kind == "self_report":
+            errors.append(f"Оценка {a.id}: самоотчёт не является проверкой навыка")
         scoped = catalog_for(a.course_version)
         if scoped:
             if a.outcome_id not in {x["id"] for x in scoped["outcomes"]}:
@@ -131,7 +135,15 @@ def record_errors(root: Path, catalog: dict) -> list[str]:
     return errors
 
 
-def save_attempt(root: Path, lesson_id: str, answer: str, assistance: str) -> dict:
+def save_attempt(
+    root: Path,
+    lesson_id: str,
+    answer: str,
+    assistance: str,
+    *,
+    kind: str = "answer",
+    recorded_by: str = "learner",
+) -> dict:
     from .catalog import load_catalog
 
     catalog = load_catalog(root)
@@ -144,6 +156,8 @@ def save_attempt(root: Path, lesson_id: str, answer: str, assistance: str) -> di
         course_version=catalog["course_version"],
         answer=answer.strip(),
         assistance=assistance,
+        kind=kind,
+        recorded_by=recorded_by,
         recorded_at=datetime.now(UTC),
     )
     folder = safe_path(root, "learning_records/attempts")

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "format": "beads-cli-export-jsonl",
+  "beads_version": "1.0.3",
+  "created_at": "2026-11-27T16:16:07.016699+00:00",
+  "prefix": "aie",
+  "source_project_id": "1b514e78-1e98-4322-9553-606d4163baab",
+  "sha256": "471e9bc78c231114d1cc599e0faf26b83481f4bcae5f85bb298acfec18c4bfe8",
+  "counts": {
+    "issues": 9,
+    "dependencies": 6,
+    "comments": 1,
+    "memories": 0
+  },
+  "public": true,
+  "redactions": {
+    "count": 9,
+    "paths": [
+      "records[0].owner",
+      "records[1].owner",
+      "records[2].owner",
+      "records[3].owner",
+      "records[4].owner",
+      "records[5].owner",
+      "records[6].owner",
+      "records[7].owner",
+      "records[8].owner"
+    ],
+    "replacement": "VadimMukabenov"
+  },
+  "limitations": [
+    "Импорт создаёт новые comment IDs.",
+    "Автор dependency.created_by заменяется автором импорта.",
+    "Dolt history, event/audit history, конфигурация и credentials не входят в export.",
+    "Публичный snapshot не сохраняет email структурированных identity/email-полей."
+  ]
+}

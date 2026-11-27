@@ -105,3 +105,63 @@ def test_history_shows_assessment_reason_and_evidence(course_root):
     assert "Explained and applied in a new example" in page
     assert "evidence/answer.txt" in page
     assert "Ожидает проверки" not in page
+
+
+def test_self_report_form_persists_unknown_help_without_awarding_progress(course_root):
+    client = TestClient(create_app(course_root))
+    assert submit(client, "Мне нужна теория", assistance="unspecified", kind="self_report").status_code == 200
+    restarted = TestClient(create_app(course_root))
+    history = restarted.get("/history").text
+    assert "Мне нужна теория" in history
+    assert "Самоотчёт" in history
+    assert "Не уточнено" in history
+    assert "Ожидает проверки" not in history
+    status = restarted.get("/api/status").json()
+    assert status["attempt_count"] == 0
+    assert status["self_report_count"] == 1
+    assert status["mastered_outcomes"] == 0
+    assert submit(client, kind="fabricated").status_code == 422
+
+
+def test_dashboard_links_to_actual_next_ready_lesson(course_root):
+    import json
+
+    from conftest import write_json
+
+    catalog_path = course_root / "projects/learning-hub/course/catalog.json"
+    catalog = json.loads(catalog_path.read_text())
+    catalog["lessons"][1].update(state="ready", material_path="materials/L00.md")
+    write_json(catalog_path, catalog)
+    (course_root / "materials/L00.md").write_text("# API lesson")
+    plan_path = course_root / "governance/plan.json"
+    plan = json.loads(plan_path.read_text())
+    plan["next_learning_step"] = "L00"
+    write_json(plan_path, plan)
+    with TestClient(create_app(course_root)) as client:
+        page = client.get("/").text
+        assert 'href="/lessons/L00"' in page
+        assert "Открыть занятие" in page
+        assert "Начни с диагностики" not in page
+        assert client.get("/api/status").json()["next_lesson"]["kind"] == "lesson"
+
+
+def test_missing_next_lesson_preserves_integrity_report_and_rendered_history(course_root):
+    import json
+
+    from conftest import write_json
+
+    path = course_root / "governance/plan.json"
+    plan = json.loads(path.read_text())
+    plan["next_learning_step"] = "MISSING"
+    write_json(path, plan)
+    with TestClient(create_app(course_root)) as client:
+        status = client.get("/api/status")
+        assert status.status_code == 200
+        assert not status.json()["integrity"]["valid"]
+        assert "Нет следующего учебного шага" in status.json()["integrity"]["errors"]
+        assert status.json()["next_lesson"] is None
+        for route in ["/", "/history"]:
+            response = client.get(route)
+            assert response.status_code == 200
+            assert 'href="/lessons/MISSING"' not in response.text
+            assert "Учебный маршрут недоступен" in response.text

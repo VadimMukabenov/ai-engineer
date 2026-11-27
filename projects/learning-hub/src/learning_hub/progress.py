@@ -12,6 +12,8 @@ def build_progress(root: Path) -> dict:
     plan = read_json(root / "governance/plan.json")
     errors = validate_repository(root)
     attempts, assessments, _ = read_records(root)
+    answers = [a for a in attempts if a.kind == "answer"]
+    self_reports = [a for a in attempts if a.kind == "self_report"]
     outcomes = {o["id"]: o for o in catalog["outcomes"]}
     latest = {}
     for a in sorted(assessments, key=lambda x: x.recorded_at):
@@ -42,7 +44,11 @@ def build_progress(root: Path) -> dict:
                 "percent": round(100 * done / total),
                 "attempted": any(
                     a.course_version == catalog["course_version"] and a.lesson_id in m["lesson_ids"]
-                    for a in attempts
+                    for a in answers
+                ),
+                "reported": any(
+                    a.course_version == catalog["course_version"] and a.lesson_id in m["lesson_ids"]
+                    for a in self_reports
                 ),
             }
         )
@@ -53,11 +59,13 @@ def build_progress(root: Path) -> dict:
         "mastered_outcomes": len(mastered),
         "total_outcomes": len(outcomes),
         "percent": round(100 * len(mastered) / len(outcomes)),
-        "attempt_count": len(attempts),
+        "attempt_count": len(answers),
+        "self_report_count": len(self_reports),
         "modules": modules,
         "projects": project_passports(root),
         "ready_projects": 0,
         "next_lesson_id": plan["next_learning_step"],
+        "next_lesson": next((x for x in catalog["lessons"] if x["id"] == plan["next_learning_step"]), None),
         "mastered_ids": sorted(mastered),
         "integrity": {"valid": not errors, "errors": errors},
         "limitations": [

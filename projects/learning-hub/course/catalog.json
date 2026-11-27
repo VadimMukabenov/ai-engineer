@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "course_version": "1.0.0",
+  "course_version": "1.0.1",
   "title": "AI Engineer",
   "skills": [
     {
@@ -1386,8 +1386,8 @@
       "module_id": "M00",
       "title": "Инженерный Python: Теория и разобранные примеры",
       "kind": "lesson",
-      "state": "planned",
-      "material_path": null,
+      "state": "ready",
+      "material_path": "projects/learning-hub/course/materials/M00-THEORY.md",
       "outcome_ids": [
         "O-M00-01",
         "O-M00-02",
